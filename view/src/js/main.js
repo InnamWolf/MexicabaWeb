@@ -234,7 +234,3 @@ imgTops.style.setProperty('--animate-duration', '3s');
 const titleWhat = document.querySelector('.tituloQueEs');
 titleWhat.classList.add('animate__animated', 'animate__fadeInDown');
 titleWhat.style.setProperty('--animate-duration', '2s');
-
-/* const imgBottom = document.querySelector('.btnCerAnimate');
-imgBottom.classList.add('animate__animated', 'animate__heartBeat', 'animate__infinite');
-imgBottom.style.setProperty('--animate-duration', '3s'); */

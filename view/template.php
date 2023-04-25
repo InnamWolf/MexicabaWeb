@@ -102,8 +102,8 @@
 
   </div>
 
-  <script src="view/js/typed.js"></script>
-  <script src="view/js/typed_list.js"></script>
+  <script src="view/src/js/typed.js"></script>
+  <script src="view/src/js/typed_list.js"></script>
   <script src="view/src/js/main.js"></script>
 
 </body>
