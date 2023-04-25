@@ -38,7 +38,7 @@
 
       <div class="card">
         <h5 class="cardTitle">Periodo corto de ahorro</h5>
-        <img src="view/img/beneficios/2.png" alt="ImagenPerido">
+        <img src="view/src/img/beneficios/2.png" alt="ImagenPerido">
         <div class="nowMore" data-bs-toggle="modal" data-bs-target="#periodo">Saber más</div>
         <!-- Modal -->
         <div class="modal fade" id="periodo" data-bs-backdrop="static">
@@ -63,7 +63,7 @@
 
       <div class="card">
         <h5 class="cardTitle">Seguro de pago saldado</h5>
-        <img src="view/img/beneficios/4.png" alt="ImagenSeguro">
+        <img src="view/src/img/beneficios/4.png" alt="ImagenSeguro">
         <div class="nowMore" data-bs-toggle="modal" data-bs-target="#seguro">Saber más</div>
         <!-- Modal -->
         <div class="modal fade" id="seguro" data-bs-backdrop="static">
@@ -88,7 +88,7 @@
 
       <div class="card">
         <h5 class="cardTitle">Convenios con universidades</h5>
-        <img src="view/img/beneficios/5.png" alt="ImagenConvenios">
+        <img src="view/src/img/beneficios/5.png" alt="ImagenConvenios">
         <div class="nowMore" data-bs-toggle="modal" data-bs-target="#convenios">Saber más</div>
         <!-- Modal -->
         <div class="modal fade" id="convenios" data-bs-backdrop="static">
@@ -113,7 +113,7 @@
 
       <div class="card">
         <h5 class="cardTitle">Seguridad y respaldo</h5>
-        <img src="view/img/beneficios/6.png" alt="ImagenRespaldo">
+        <img src="view/src/img/beneficios/6.png" alt="ImagenRespaldo">
         <div class="nowMore" data-bs-toggle="modal" data-bs-target="#respaldo">Saber más</div>
         <!-- Modal -->
         <div class="modal fade" id="respaldo" data-bs-backdrop="static">
@@ -139,7 +139,7 @@
 
       <div class="card">
         <h5 class="cardTitle">Beneficios fiscales</h5>
-        <img src="view/img/beneficios/3.png" alt="ImagenBeneficios">
+        <img src="view/src/img/beneficios/3.png" alt="ImagenBeneficios">
         <div class="nowMore" data-bs-toggle="modal" data-bs-target="#beneficios">Saber más</div>
         <!-- Modal -->
         <div class="modal fade" id="beneficios" data-bs-backdrop="static">
@@ -164,7 +164,7 @@
 
       <div class="card">
         <h5 class="cardTitle">Ahorro para educación</h5>
-        <img src="view/img/beneficios/1.png" alt="ImagenAhorro">
+        <img src="view/src/img/beneficios/1.png" alt="ImagenAhorro">
         <div class="nowMore" data-bs-toggle="modal" data-bs-target="#ahorro">Saber más</div>
         <!-- Modal -->
         <div class="modal fade" id="ahorro" data-bs-backdrop="static">
@@ -195,29 +195,8 @@
   <div class="video">
 
 
-  <a class="btn btn-color btnVideo" href="view/pdf/Brochure_MexicanaBecas.pdf" download="Brochure_MexicanaBecas">Ver más</a>
-
-  <!-- <div class="btn btn-color btnVideo" data-bs-toggle="modal" data-bs-target="#videoModal">Ver más</div>
-
-  <div class="modal fade" id="videoModal" data-bs-backdrop="static">
-    <div class="modal-dialog modal-dialog-centered">
-      <div class="modal-content ">
-        <div class="modal-header">
-          <h4 class="modal-title">¿Qué beneficios tienes con Mexicana de Becas?</h4>
-          <button type="button" class="btn-close close-modal" data-bs-dismiss="modal"></button>
-        </div>
-        <div class="modal-body">
-          <iframe class="videoYou" src="https://www.youtube-nocookie.com/embed/m4N5IbnGNOY" title="Mexicana Becas"
-            frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen></iframe>
-          </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-color btn-sm close-modal" data-bs-dismiss="modal">Salir</button>
-          </div>
-        </div>
-      </div>
-    </div> -->
-
+  <a class="btn btn-color btnVideo" href="view/src/pdf/Brochure_MexicanaBecas.pdf" download="Brochure_MexicanaBecas">Ver más</a>
+ 
   </div>
 
   <!--===============================================
@@ -229,7 +208,7 @@
       <p>Contamos con dos planes de ahorro educativo: <br> para la Preparatoria y para la Universidad de tus pequeños.</p>
       <div class="funcionaImg">
         <div class="imgLeft">
-          <img src="view/img/planes/1.png" alt="PlanPrepa">
+          <img src="view/src/img/planes/1.png" alt="PlanPrepa">
           <spam>Plan Preparatoria</spam>
           <div class="plan1" data-bs-toggle="modal" data-bs-target="#prepa"><i class="fa-solid fa-arrow-right"></i>
             Más
@@ -256,7 +235,7 @@
           </div>
         </div>
         <div class="imgRight">
-          <img src="view/img/planes/2.png" alt="PlanUni">
+          <img src="view/src/img/planes/2.png" alt="PlanUni">
           <spam>Plan Universidad</spam>
           <div class="plan2" data-bs-toggle="modal" data-bs-target="#uni"><i class="fa-solid fa-arrow-right"></i>
             Más
@@ -294,20 +273,20 @@
     <div class="cardPlanes">
       <div class="cardItem shadow">
         <p class="cardItemTitle fontAmarillo">Aportación</p>
-        <img src="view/img/tipoPlan/1.png" alt="TipoPlanUno">
+        <img src="view/src/img/tipoPlan/1.png" alt="TipoPlanUno">
         <p class="cardItemText">Ahorro solo durante 4 o 5 años dependiendo del plan contratado.</p>
         <p class="cardItemText">Elige cada cuánto quieres hacer tus aportaciones: <br> Único, anual, semestral, trimestral y mensual.</p>
       </div>
       <div class="cardItem shadow">
         <p class="cardItemTitle fontAzul">Acumulación de rendimiento</p>
-        <img src="view/img/tipoPlan/2.png" alt="TipoPlanUno">
+        <img src="view/src/img/tipoPlan/2.png" alt="TipoPlanUno">
         <p class="cardItemText">Tu ahorro se invierte para hacerlo crecer.</p>
         <p class="cardItemText">Posterior al primer año, tu ahorro comienza a generar rendimientos hasta que tu pequeño
           concluya sus estudios.</p>
       </div>
       <div class="cardItem shadow">
         <p class="cardItemTitle fontVerde">Entrega de inversión más rendimientos</p>
-        <img src="view/img/tipoPlan/3.png" alt="TipoPlanUno">
+        <img src="view/src/img/tipoPlan/3.png" alt="TipoPlanUno">
         <p class="cardItemText">Se realizará de forma anual, previo al inicio del ciclo escolar.</p>
         <p class="cardItemText"> <span class="txtBlue">3 AÑOS</span> - PREPARATORIA <br> <span class="txtBlue">5 AÑOS
           </span> - UNIVERSIDAD</p>
@@ -341,13 +320,6 @@
   </div>
 
   <!--===============================================
-  Boton calculadora
-  =================================================-->
-  <!--<div class="btnCal2">
-    <a class="btnCalAnimate" href="#">¡Calcula cuánto costará su educación!</a>
-  </div>-->
-
-  <!--===============================================
   Carrusel
   =================================================-->
   <div class="carrusel">
@@ -359,10 +331,7 @@
       </div>
      <div class="item cerdito">
         <p>Respaldo operativo de Grupo Financiero Santander México como fiduciario del fideicomiso.</p>
-      </div> 
-      <!-- <div class="item cerditoGrado">
-        <p>Registro ante PROFECO (Número 3660-2011, Expediente Número PFC.B.E. 7/003505-2011).</p>
-      </div> -->
+      </div>            
       <div class="item dinero">
         <p>¡La inversión que</br>
         <span class="txtGrande">construye</br>el futuro</span></br>
@@ -490,22 +459,14 @@
     </div>
     <a href="faq" class="masFaq">Ver más preguntas</a>
   </div>
-
-  <!--===============================================
-  Imagen Cerdo Boton
-  =================================================-->
-  <!-- <div class="imgCerdo">
-    <div class="centerImg">
-      <a class="btnCerAnimate" href="#">¡Calcula cuánto necesitas ahorrar!</a>
-    </div>
-  </div> -->
+ 
   <section class="fondo">
 
     <div class="d-none d-sm-none d-md-block">
       <header>        
 
         <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
-            <source src="view/img/video/Cerdito.mp4" type="video/mp4">
+            <source src="view/src/img/video/Cerdito.mp4" type="video/mp4">
         </video>
 
         <div class="container contenido h-100">
@@ -525,7 +486,7 @@
             <div class="row py-1">
                 <div class="col-md-1"></div>
                 <div class="col-md-7 mb-5">
-                    <video class="img-fluid" src="view/img/video/Cerdito.mp4" width="640" height="480" autoplay muted loop></video>
+                    <video class="img-fluid" src="view/src/img/video/Cerdito.mp4" width="640" height="480" autoplay muted loop></video>
                 </div>
                 <div class="col-md-4 align-self-center">
                     <h1 class="display-2 fw-bolder text-orange">¿Cuánto costará su <span class="text-blue typed2"></span></h1>
