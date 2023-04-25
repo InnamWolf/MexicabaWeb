@@ -1,0 +1,17 @@
+//*Compilar SASS: sass --watch view/src/sass/main.scss:view/src/css/main.css --style compressed
+
+// * ===============================================
+// * Este archivo solo tendra inportaciones de otros archivos
+// * ===============================================
+
+// * ===============================================
+// * UTILITIES
+// * ===============================================
+@import 'utilities/var.scss';
+@import 'utilities/mixin.scss';
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Poppins:wght@400;700&display=swap');
+
+// * ===============================================
+// * COMPONENTS
+// * ===============================================
+@import 'components/nav.scss';

@@ -1,0 +1,168 @@
+// * ===============================================
+// * Nav Movil
+// * ===============================================
+.movil {
+  @include desktop {
+    display: none;
+  }
+
+  background: $white;
+  margin: auto;
+  font-family: $title;
+
+  a {
+    text-decoration: none;
+  }
+
+  .logo {
+    align-items: center;
+    display: flex;
+    justify-content: start;
+    padding: 10px;
+
+    .menu {
+      border-right: 2px solid lightgray;
+      font-size: 40px;
+      padding-right: 10px;
+    }
+
+    img {
+      height: 50px;
+      padding-left: 20px;
+    }
+  }
+
+  .navItem {
+    background: $blue;
+    display: none;
+    padding: 10px;
+
+    .button {
+      background: $green;
+      border-radius: 20px;
+      width: 200px;
+      padding: 10px;
+
+      a {
+        font-weight: bold;
+        color: $white;
+        font-family: $title;
+      }
+
+      &:hover {
+        background: darken($green, 15%);
+      }
+    }
+
+    .link {
+      border-bottom: 1px solid $white;
+      color: $white;
+      display: block;
+      font-weight: bold;
+      font-size: 15px;
+      margin-top: 10px;
+      padding: 8px 0;
+
+      &:hover {
+        background: $lightBlue;
+      }
+
+      i {
+        font-size: 17px;
+        padding-left: 10px;
+      }
+    }
+
+    .cleanLine {
+      border: none;
+    }
+
+    .subMenu,
+    .subMenuTwo {
+      display: none;
+      padding-left: 10px;
+    }
+  }
+}
+
+// * ===============================================
+// * Nav Desktop
+// * ===============================================
+
+.desktop {
+  display: none;
+
+  @include desktop {
+    display: block;
+    margin: auto;
+    font-family: $title;
+
+    .logo {
+      padding: 5px 10px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      width: 1150px;
+      margin: auto;
+
+      img {
+        height: 60px;
+      }
+
+      .button {
+        background: $green;
+        border-radius: 20px;
+
+        a {
+          font-weight: bold;
+          color: $white;
+          display: block;
+          text-align: center;
+          font-family: $title;
+          padding: 10px;
+          text-decoration: none;
+        }
+
+        &:hover {
+          background: darken($green, 15%);
+        }
+      }
+    }
+
+    .navItem {
+      background: $blue;
+      margin-top: 10px;
+
+      .nav-pills .nav-link {
+        border-radius: 0;
+        height: 60px;
+        display: flex;
+        align-items: center;
+      }
+
+      .navIn {
+        width: 1150px;
+        margin: auto;
+
+        li {
+          a {
+            color: $white;
+            font-weight: bold;
+            text-align: center;
+            transition: all 0.5s ease-in;
+
+            &:hover {
+              background: $lightBlue;
+            }
+          }
+
+          .dropdown-menu.show {
+            background: $blue;
+            border: none;
+            border-radius: 0;
+          }
+        }
+      }
+    }
+  }
+}
