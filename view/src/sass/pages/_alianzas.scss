@@ -1,0 +1,132 @@
+.alianzas{
+  width: 95%;
+  margin: auto;  
+
+  @include desktop{
+    width: 1050px;
+  }
+
+  .alianzas__title{
+    @include titleGreen();
+  }
+
+  .alianzas__txt{
+    font-size: 13px;
+
+    @include tablet{
+      font-size: 16px;
+    }
+  }
+
+  .alianzas__simbologia{
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+    @include tablet{
+      width: 500px;
+    }
+
+    .simbologia__item{
+
+      display: flex;
+
+      .item__logo{
+        height: 20px;
+        width: 20px;
+      }
+
+      .item__txt{
+        margin-left: 5px;
+      }
+    }
+  }
+
+  .alianza__separacion{
+    width: 100%;
+    height: 2px;
+    background: $gray;
+    margin-top: 20px;
+  }
+
+  .alianza__informacion{
+
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;    
+    row-gap: 20px;
+    @include tablet{
+      grid-template-columns: repeat(3, 1fr);
+    }
+    @include desktop{
+      grid-template-columns: repeat(4, 1fr);
+    }
+
+
+    .informacion__item{
+      
+      width: 160px;
+      padding: 10px 10px;
+
+      @include tablet{
+        width: 200px;
+      }
+
+      @include desktop{
+        width: 230px;
+      }
+
+      .informacion__imagen{
+
+        height: 70px;
+        width: 140px;     
+
+        @include tablet{
+          height: 85px;
+          width: 180px;
+        }   
+
+        @include desktop{
+          height: 100px;
+          width: 210px;
+        }
+
+      }
+      .informacion__txt{
+        padding-top: 10px;
+        text-align: right;
+        cursor: pointer; 
+      }
+
+      .btn__salir{
+        background: $gray;
+        color: $white;
+      }
+      .btn__info{
+        background: $green;
+        color: $white;        
+        a{
+          text-decoration: none;
+          color: $white;        
+        }
+      }  
+
+      .modal__simbologia{
+        display: flex;        
+        margin-bottom: 10px;            
+        width: 75px;
+        justify-content: space-between;
+        .modal__simbologia__item{
+          .modal__item__logo{            
+            height: 20px;
+            width: 20px;
+          }
+
+        }
+      
+      }
+
+    }
+  }
+}
