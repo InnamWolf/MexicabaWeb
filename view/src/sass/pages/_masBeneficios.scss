@@ -1,0 +1,115 @@
+.masBeneficios {
+  width: 95%;
+  margin: auto;
+
+  @include desktop {
+    width: 1050px;
+    margin-top: 30px;
+  }
+
+  .masBeneficios__title {
+    h3 {
+      margin-top: 20px;
+      text-align: center;
+      font-family: $title;
+      font-weight: bold;
+    }
+
+    .colorBlue {
+      @include titleBlue();
+    }
+
+    @include desktop {
+      width: 480px;
+      margin: auto;
+      margin-top: 20px;
+    }
+  }
+
+  .masBeneficios__wrapper {
+    margin-top: 20px;
+
+    @include desktop {
+      display: flex;
+    }
+
+    .masBeneficios__item {
+      max-width: 300px;
+      margin: auto;
+      margin-top: 20px;
+
+      .masBeneficios__card {
+        .card__title {
+          padding: 10px;
+          text-align: center;
+          background: lighten($gray, 40%);
+          font-weight: bold;
+        }
+
+        .card__img01 {
+          background-image: url('../img/beneficios/5.png');
+          background-size: contain;
+          background-position: center;
+          background-repeat: no-repeat;
+          height: 160px;
+        }
+
+        .card__img02 {
+          background-image: url('../img/masBenef/1.png');
+          background-size: contain;
+          background-position: center;
+          background-repeat: no-repeat;
+          height: 160px;
+        }
+
+        .card__img03 {
+          background-image: url('../img/masBenef/2.png');
+          background-position: center;
+          background-repeat: no-repeat;
+          height: 160px;
+        }
+      }
+
+      .masBeneficios_textos {
+        margin-top: 20px;
+        min-width: 300px;
+        text-align: center;
+        font-size: 12px;
+      }
+
+      .masBeneficios__boton {
+        width: 270px;
+        text-align: center;
+        padding: 5px;
+        margin: auto;
+        border-radius: 20px;
+        color: $white;
+        font-weight: bold;
+        font-family: $title;
+      }
+
+      .masBeneficios__boton--yellow {
+        background: $orange;
+      }
+
+      .masBeneficios__boton--green {
+        background: $green;
+      }
+
+      .masBeneficios__boton--blue {
+        background: $blue;
+      }
+
+      a {
+        display: block;
+        text-decoration: none;
+      }
+
+      .vocacional {
+        @include desktop {
+          margin-top: 50px;
+        }
+      }
+    }
+  }
+}
