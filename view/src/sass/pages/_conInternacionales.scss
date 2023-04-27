@@ -1,0 +1,241 @@
+.conInternacionales {
+  width: 95%;
+  margin: auto;
+
+  @include desktop {
+    width: 1050px;
+  }
+
+  .conInternacionales__title {
+    @include titleOrange();
+  }
+
+  .conInternacionales__subtitle {
+    @include subtitle();
+    padding: 5px;
+  }
+
+  .conInternacionales__txt {
+    font-size: 13px;
+    padding-top: 20px;
+    @include tablet {
+      font-size: 16px;
+    }
+  }
+  .conInternacionales__sombreado {
+    background-color: $white;
+    text-align: left;
+  }
+  .conInternacionales__fondoOrange {
+    background-color: $orange;
+    display: flex;
+    .conInternacionales__itemFondo {
+      width: 525px;
+      a {
+        display: block;
+        text-decoration: none;
+        text-align: center;
+        background: $orange;
+        margin: auto;
+        width: auto;
+        color: $white;
+        padding: 10px;
+      }
+      .conInternacionales__convenio__inactivo {
+        color: $orange;
+        background: $white;
+      }
+    }
+  }
+  .conInternacionales__simbologia__nivel {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 10px;
+    row-gap: 10px;
+    justify-items: center;
+    justify-content: center;
+    @include desktop {
+      grid-template-columns: repeat(4, 1fr);
+    }
+    .conInternacionales__simbologia__item {
+      display: flex;
+      margin-top: 10px;
+
+      .conInternacionales__item__logo__mediaSuperior {
+        background-image: url('../img/conNvlMediSup.svg');
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+        height: 40px;
+        width: 60px;
+        @include tablet {
+          height: 40px;
+          width: 60px;
+        }
+      }
+      .conInternacionales__item__logo__superior {
+        background-image: url('../img/conNvlSuperior.svg');
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+        height: 33px;
+        width: 53px;
+        @include tablet {
+          height: 40px;
+          width: 60px;
+        }
+      }
+      .conInternacionales__item__logo__posgrado {
+        background-image: url('../img/conPosgrado.svg');
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+        height: 33px;
+        width: 53px;
+        @include tablet {
+          height: 40px;
+          width: 60px;
+        }
+      }
+      .conInternacionales__item__logo__educa {
+        background-image: url('../img/conEducacContinua.svg');
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+        height: 40px;
+        width: 100px;
+        @include tablet {
+          height: 43px;
+          width: 103px;
+        }
+      }
+    }
+  }
+
+  .conInternacionales__simbologia__aspirante {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 10px;
+    row-gap: 10px;
+    justify-items: center;
+    justify-content: center;
+    .conInternacionales__simbologia__item {
+      display: flex;
+      margin-top: 10px;
+      align-items: center;
+      .conInternacionales__item__logo_beneficiario {
+        background-image: url('../img/alianzaBeneficiario.svg');
+        height: 30px;
+        width: 30px;
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+      }
+      .conInternacionales__item__logo_suscriptor {
+        background-image: url('../img/alianzaSus.svg');
+        height: 30px;
+        width: 30px;
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+      }
+      .conInternacionales__item__logo_famDirecto {
+        background-image: url('../img/alianzaFamDirectos.svg');
+        height: 43px;
+        width: 43px;
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+        @include tablet {
+          height: 30px;
+          width: 30px;
+        }
+      }
+    }
+  }
+
+  .conInternacionales__item__title {
+    font-weight: bold;
+    margin-left: 5px;
+    font-size: 13px;
+
+    @include tablet {
+      font-size: 16px;
+    }
+  }
+  .conInternacionales__item__txt {
+    font-weight: normal;
+    font-size: 13px;
+
+    @include tablet {
+      font-size: 16px;
+    }
+  }
+
+  .conInternacionales__separacion {
+    width: 100%;
+    height: 2px;
+    background: lighten($gray, 40%);
+    margin-top: 20px;
+  }
+
+  .conInternacionales__informacion {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+    row-gap: 20px;
+    @include tablet {
+      grid-template-columns: repeat(3, 1fr);
+    }
+    @include desktop {
+      grid-template-columns: repeat(4, 1fr);
+    }
+
+    .conInternacionales__informacion__item {
+      width: 160px;
+      padding: 5px 10px;
+
+      .conInternacionales__informacion__imagen {
+        height: 120px;
+        width: 130px;
+      }
+      .conInternacionales__informacion__txt {
+        text-align: right;
+        cursor: pointer;
+        color: darken($blue, 18%);
+        i {
+          color: darken($blue, 18%);
+        }
+      }
+    }
+
+    .conInternacionales-header {
+      font-weight: bold;
+    }
+    .conInternacionales-body {
+      img {
+        width: 30px;
+        height: 30px;
+        margin: 5px;
+      }
+    }
+    .conInternacionales__btn-color-Gray {
+      background: $gray;
+      color: $white;
+    }
+    .conInternacionales__btn-color-Orange {
+      background: $orange;
+      color: $white;
+      a {
+        display: block;
+        text-decoration: none;
+        text-align: center;
+        background: $orange;
+        margin: auto;
+        width: auto;
+        color: $white;
+      }
+    }
+  }
+}
