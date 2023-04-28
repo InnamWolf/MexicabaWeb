@@ -1,0 +1,125 @@
+.videos {
+  width: 95%;
+  margin: auto;
+
+  @include desktop {
+    width: 1050px;
+  }
+
+  .videos__title {
+    @include titleGreen();
+  }
+
+  .videos__item {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 10px;
+    justify-items: center;
+
+    @include tablet {
+      grid-template-columns: repeat(3, 1fr);
+    }
+
+    .videoComo {
+      background-image: url('../img/videos/1.jpeg');
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      margin: auto;
+      margin-top: 20px;
+      width: 85%;
+      height: 100px;
+      border-radius: 5px;
+      @include desktop {
+        width: 300px;
+        height: 150px;
+      }
+    }
+
+    .videoConsultorio {
+      background-image: url('../img/videos/2.jpeg');
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      margin: auto;
+      margin-top: 20px;
+      width: 85%;
+      height: 100px;
+      border-radius: 5px;
+      @include desktop {
+        width: 300px;
+        height: 150px;
+      }
+    }
+
+    .videoAhorro {
+      background-image: url('../img/videos/3.jpeg');
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      margin: auto;
+      margin-top: 20px;
+      width: 85%;
+      height: 100px;
+      border-radius: 5px;
+      @include desktop {
+        width: 300px;
+        height: 150px;
+      }
+    }
+
+    .videoFacebook {
+      background-image: url('../img/videos/4.jpeg');
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      margin: auto;
+      margin-top: 20px;
+      width: 85%;
+      height: 100px;
+      border-radius: 5px;
+      @include desktop {
+        width: 300px;
+        height: 150px;
+      }
+    }
+
+    .videoAsegurado {
+      background-image: url('../img/videos/5.jpeg');
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      margin: auto;
+      margin-top: 20px;
+      width: 85%;
+      height: 100px;
+      border-radius: 5px;
+      @include desktop {
+        width: 300px;
+        height: 150px;
+      }
+    }
+
+    .modal {
+      text-align: center;
+      .modal-title {
+        font-size: 12px;
+        @include desktop {
+          font-size: 22px;
+        }
+      }
+      .video {
+        height: 150px;
+        width: 100%;
+        @include desktop {
+          width: 450px;
+          height: 250px;
+        }
+      }
+      .btn-color {
+        background: $green;
+        color: $white;
+      }
+    }
+  }
+}
