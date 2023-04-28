@@ -1,0 +1,81 @@
+.interesaForm{
+  width: 95%;
+  margin: auto;
+  padding: 10px;
+
+  @include desktop{
+    width: 1045px;
+  }
+
+  .interesa__title{
+    text-align: center;
+    padding: 20px 0;
+    @include titleOrange;
+
+
+
+  }
+
+  .txtTitle{
+    text-align: center;
+    margin-bottom: 20px;
+    @include desktop{
+      text-align: left;
+
+    }
+  }
+
+  .contactoInteresa{    
+    margin: auto;
+    p{
+      text-align: center;      
+      margin: 10px;            
+    }
+
+    .contactoBotones{
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      align-items: center;      
+
+      .btnAcomodo{
+        width: 250px;
+        border-radius: 10px;
+        margin-bottom:20px ;
+        padding: 10px 0px;        
+      }
+
+      .btnInterno{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        i{
+          font-size: 30px;
+        }
+      }
+      .btnTel{
+        background: $blue;
+        color:$white;
+      }
+      .btnWhats{
+        background: $green;        
+        color:$white;
+      }
+      .btnMail{
+        background: $orange;
+        color:$white;
+        a{
+          display: block;
+          color:$white;
+          text-decoration: none;
+        }
+      }
+
+      @include desktop{
+        flex-direction: row;
+        justify-content: space-evenly;
+      }
+    }
+
+  }
+}
