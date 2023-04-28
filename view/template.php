@@ -42,7 +42,7 @@
 
 
 
-  <link rel="icon" href="view/img/icono_MB.png" sizes="64x64">
+  <link rel="icon" href="view/src/img/icono_MB.png" sizes="64x64">
 
 
   <title>Mexicana de Becas - Fideicomiso educativo</title>
