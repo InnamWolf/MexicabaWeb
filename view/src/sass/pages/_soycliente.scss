@@ -1,0 +1,240 @@
+.soyCliente{
+
+  .titulo__cliente{
+    font-family: $title;    
+    @include titleOrange();    
+  }
+
+  .soyCliente__txtForm{
+    text-align: center;
+  }
+
+  .soycliente__form{
+
+    width: 95%;
+    margin: auto;
+
+    @include tablet{
+      width: 600px;
+    }
+
+    @include desktop{
+      width: 800px;
+    }
+
+    span{
+      color:red;
+      margin-left: 2px;      
+    }
+
+    .formulario__parteUno{
+      display: flex;
+      @include tablet{
+        justify-content: space-around;        
+      }
+      @include desktop{            
+        justify-content: space-between;        
+      }
+      .section01{
+        font-size: 12px;
+        .formulario__pregunta{
+          border-radius: 7px;
+          border: solid 1px #000;
+          margin-top: 10px;
+          @include tablet{
+            display: block;
+            width: 250px;
+          }
+          @include desktop{            
+            width: 300px;
+          }
+        }        
+      }
+    }
+
+    .formulario__parteDos{
+      display: flex;
+      margin-top: 10px;
+      @include tablet{
+        justify-content: space-evenly;
+      }
+      @include desktop{
+        justify-content: space-between;
+      }
+      .section02{
+        font-size: 12px;
+        .formulario__pregunta{
+          border-radius: 7px;
+          border: solid 1px #000;
+          margin-top: 10px;
+          @include tablet{
+            display: block;
+            width: 250px;
+          } 
+          @include desktop{
+            width: 300px;
+          }
+        }        
+      }
+    }
+
+    .formulario__parteTres{      
+      margin-top: 10px;
+      @include tablet{
+        margin-left: 28px;        
+      }
+      @include desktop{
+        margin-left: 0px;        
+      }
+      .section03{
+        font-size: 12px;
+        .formulario__pregunta{
+          border-radius: 7px;
+          border: solid 1px #000;
+          margin-top: 10px;
+        }        
+      }
+    }
+
+    .formulario__parteCuatro{      
+      margin-top: 10px;
+      @include tablet{
+        margin-left: 28px;        
+      }
+      @include desktop{
+        margin-left: 0px;        
+      }
+      .section04{
+        font-size: 12px;        
+        .formulario__select{
+          border-radius: 7px;
+          border: solid 1px #000;
+          margin-top: 10px;
+          background: transparent;
+          width: 300px;
+          @include desktop{
+            width: 100%;   
+          }  
+        }        
+      }
+    }
+
+    .formulario__parteCinco{      
+      margin-top: 10px;
+      @include tablet{
+        margin-left: 28px;        
+      }
+      @include desktop{
+        margin-left: 0px;        
+      }
+      .section05{
+        font-size: 12px;        
+        .formulario__comentarios{
+          border-radius: 7px;
+          border: solid 1px #000;
+          margin-top: 10px;          
+          width: 300px;
+          height: 100px; 
+          @include tablet{
+            width: 500px;     
+          }      
+          @include desktop{
+            width: 100%;   
+          }   
+        }        
+      }
+    }
+
+    .formulario__txt{
+      font-size: 12px;
+      margin-top: 20px;
+      text-align: justify;      
+    }
+
+    .btn__formulario{
+      display: block;
+      width: 100px;
+      margin: auto;
+      border-radius: 10px;
+      background: $blue;
+      border: none;
+      font-family: $title;
+      color: $white;
+    }
+
+  }
+
+  img{
+    height: 150px;
+    display: block;
+    margin: auto;
+  }
+
+  .soyCliente__Contacto{    
+    width: 95%;
+    margin:auto;
+
+    p{
+      text-align: center;      
+      margin: 0;
+      margin-bottom: 10px;  
+    }
+
+    p:nth-child(1){      
+      font-weight: bold;            
+    } 
+
+    .contacto__item{
+      width: 260px;            
+      margin: auto;
+      @include desktop{
+        display: flex;
+        width: 800px;
+        justify-content: space-between;
+      }
+      .item{        
+        margin: 5px;    
+        display: flex;
+        align-items: center;    
+        justify-content: space-around;
+        width: 250px;
+        text-align: center;
+        border-radius: 7px;
+        font-weight: bold;
+        color: $white;
+        .icono__tel{
+          background-image: url('../img/atencion_a_clientes_llamada.png');
+          width: 35px;
+          height: 35px;
+          background-position: center;
+          background-size: contain;
+        }
+        .icono__whats{
+          background-image: url('../img/atencion_a_clientes_wa.png');
+          width: 35px;
+          height: 35px;
+          background-position: center;
+          background-size: contain;
+        }
+        .icono__mail{
+          background-image: url('../img/atencion_a_clientes_correo.png');
+          width: 35px;
+          height: 35px;
+          background-position: center;
+          background-size: contain;
+        }
+      }
+      .item:nth-child(1){
+        background: $blue;
+      }
+      .item:nth-child(2){
+        background: $green;
+      }
+      .item:nth-child(3){
+        background: $orange;
+      }
+    }
+
+  }
+  
+}
