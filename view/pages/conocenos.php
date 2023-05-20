@@ -16,15 +16,10 @@
       <h3 class="tituloQueEs">
         <span class="colorYellow">¿Qué es Mexicana de Becas?</span>
       </h3>
-      <p>Somos el único producto previsional en México exclusivo y especializado para ahorrar e invertir para los gastos
-        futuros de la preparatoria y/o universidad de tus hijos.</p>
+      <p>Somos el único producto en México exclusivo y especializado para ahorrar e invertir para los gastos futuros de la preparatoria y/o universidad de tus hijos.</p>
       <div class="btnMas"><i class="fa-solid fa-arrow-right"></i> Más</div>
       <div class="txtOculto">
-        Por más de 29 años hemos sido un aliado confiable y estable de las familias mexicanas para prever financieramente
-        la educación futura de sus pequeños. Nuestros planes de ahorro educativo están integralmente desarrollados para
-        proteger su futuro y cuentan con una variedad de beneficios asociados: Red de convenios con universidades
-        nacionales y extranjeras, orientación vocacional y seguro de pago saldado que protege tu intención de ahorro en
-        caso de muerte o invalidez total o permanente.
+        Por más de 30 años hemos sido un aliado confiable y estable de las familias mexicanas para prever financieramente la educación futura de sus pequeños. Nuestros planes de ahorro educativo están integralmente desarrollados para proteger su futuro y cuentan con una variedad de beneficios asociados: Red de convenios con universidades nacionales y extranjeras, orientación vocacional y seguro de pago saldado que protege tu intención de ahorro en caso de fallecimiento o invalidez total y permanente.
       </div>
     </div>
   </div>
@@ -50,7 +45,7 @@
               </div>
               <!-- Modal body -->
               <div class="modal-body">
-              Periodo de ahorro flexible, pues únicamente ahorrarás durante 4 o 5 años dependiendo del plan que elijas. Esto hace que ahorrar para la educación de tu pequeñ@ no se convierta en una carga insostenible con el tiempo.
+              Periodo de ahorro corto y flexible, pues únicamente ahorrarás durante 4 o 5 años dependiendo del plan que elijas. Esto hace que ahorrar para la educación de tu pequeñ@ no se convierta en una carga insostenible con el tiempo.
               </div>
               <div class="modal-footer">
                 <button type="button" class="btn btn-color btn-sm" data-bs-dismiss="modal">Salir</button>
@@ -75,7 +70,7 @@
               </div>
               <!-- Modal body -->
               <div class="modal-body">
-              En el caso infortunado de la muerte o invalidez total o permanente de alguno de los contratantes durante el periodo de ahorro, las aportaciones restantes quedarán saldadas protegiendo así la educación del pequeño.
+              Contarás con un seguro de pago saldado que en el caso infortunado del fallecimiento o invalidez total y permanente de cualquiera de los dos suscriptores durante el periodo de ahorro, el plan contratado quedará cubierto.
               </div>
               <div class="modal-footer">
                 <button type="button" class="btn btn-color btn-sm" data-bs-dismiss="modal">Salir</button>
@@ -100,7 +95,7 @@
               </div>
               <!-- Modal body -->
               <div class="modal-body">
-              Obtendrás descuentos en inscripciones y/o colegiaturas con universidades nacionales o extranjeras de nuestra red de convenios vigente. Esto hará que tu ahorro sea aún mayor, y pueden aplicarse también para familiares directos. 
+              Obtendrás descuentos en inscripciones y/o colegiaturas con universidades nacionales o extranjeras de nuestra red de convenios vigente. Esto hará que tu ahorro sea aún mayor pues puedes ahorrar hasta un año de colegiatura. Pueden aplicarse también a familiares directos.
               </div>
               <div class="modal-footer">
                 <button type="button" class="btn btn-color btn-sm" data-bs-dismiss="modal">Salir</button>
@@ -125,8 +120,7 @@
               </div>
               <!-- Modal body -->
               <div class="modal-body">
-              Tienes la tranquilidad y certeza de que tu dinero está seguro pues nuestros planes de ahorro son operados a través de un fideicomiso educativo, custodiado por Grupo Financiero Santander México. Nos respaldan 30 años de solidez y experiencia en el mercado.
-
+              Tienes la tranquilidad y certeza de que tu dinero está seguro pues nuestros planes de ahorro son administrados a través de un fideicomiso educativo, custodiado por Grupo Financiero Santander México. Nos respaldan 30 años de experiencia y más de 58,000 padres de familia que han confiado en nosotros. El contrato del Plan de Becas está registrado en la PROFECO con el número 36602011, expediente número PFC.B.E 7/003505-2011 de fecha 11 de mayo del 2011.
               </div>
               <div class="modal-footer">
                 <button type="button" class="btn btn-color btn-sm" data-bs-dismiss="modal">Salir</button>
@@ -151,7 +145,7 @@
               </div>
               <!-- Modal body -->
               <div class="modal-body">
-              Cuentas con exclusivos beneficios fiscales, pues al tratarse de un fideicomiso educativo, los rendimientos generados están exentos del Impuesto Sobre la Renta.
+              Cuentas con exclusivos beneficios fiscales pues a diferencia de otros instrumentos de inversión, los rendimientos que obtienes con Mexicana de Becas están exentos del ISR de acuerdo con el artículo 90 de la Ley del Impuesto Sobre la Renta.
               </div>
               <div class="modal-footer">
                 <button type="button" class="btn btn-color btn-sm" data-bs-dismiss="modal">Salir</button>
@@ -223,9 +217,7 @@
                 </div>
                 <!-- Modal body -->
                 <div class="modal-body">
-                  En este plan solo ahorrarás durante 4 años. 
-                  <br>
-                  Para poder contratar este plan el niño deberá estar cursando como máximo 2° de primaria.
+                El ahorro es durante 4 años y para poder contratarlo el pequeñ@ deberá estar cursando como máximo 2° de primaria.
                 </div>
                 <div class="modal-footer">
                   <button type="button" class="btn btn-color btn-sm" data-bs-dismiss="modal">Salir</button>
@@ -249,9 +241,7 @@
                 </div>
                 <!-- Modal body -->
                 <div class="modal-body">
-                  En este plan solo ahorrarás durante 5 años. 
-                  <br>
-                  Para poder contratar este plan el niño deberá estar cursando como máximo 4° de primaria.
+                El ahorro es durante 5 años y para poder contratarlo el pequeñ@ deberá estar cursando como máximo 4° de primaria.
                 </div>
                 <div class="modal-footer">
                   <button type="button" class="btn btn-color btn-sm" data-bs-dismiss="modal">Salir</button>
