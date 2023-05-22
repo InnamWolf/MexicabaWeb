@@ -36,7 +36,7 @@
         left: 25%;
         bottom: 20px;
         &:hover {
-          background: darken($blue, 8%);
+          background: darken($orangeTwo, 8%);
         }
         @include tablet {
           left: 35%;
