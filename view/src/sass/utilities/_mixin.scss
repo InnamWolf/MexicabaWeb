@@ -40,6 +40,30 @@
   margin-top: 20px;
 }
 
+@mixin titleOrangeThree {
+  color: $orangeThree;
+  font-weight: bold;
+  font-family: $title;
+  text-align: center;
+  margin-top: 20px;
+}
+
+@mixin titleLightPurple {
+  color: $lightPurple;
+  font-weight: bold;
+  font-family: $title;
+  text-align: center;
+  margin-top: 20px;
+}
+
+@mixin titleLightGreen {
+  color: $lightGreen;
+  font-weight: bold;
+  font-family: $title;
+  text-align: center;
+  margin-top: 20px;
+}
+
 @mixin subtitle {
   background-color: lighten($gray, 40%);
   font-weight: bold;
