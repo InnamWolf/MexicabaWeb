@@ -16,7 +16,7 @@
     }
 
     .colorBlue {
-      @include titleBlue();
+      @include titleLightGreen();
     }
 
     @include desktop {
@@ -42,8 +42,9 @@
         .card__title {
           padding: 10px;
           text-align: center;
-          background: lighten($gray, 40%);
+          //background: lighten($gray, 40%);
           font-weight: bold;
+          color: $white;
         }
 
         .card__img01 {
@@ -89,15 +90,15 @@
       }
 
       .masBeneficios__boton--yellow {
-        background: $orange;
+        background: $orangeThree;
       }
 
       .masBeneficios__boton--green {
-        background: $green;
+        background: $lightPurple;
       }
 
       .masBeneficios__boton--blue {
-        background: $blue;
+        background: $orangeTwo;
       }
 
       a {

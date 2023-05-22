@@ -9,8 +9,8 @@
 
     <div class="masBeneficios__item">
 
-      <div class="masBeneficios__card shadow ">
-          <div class="card__title">Convenios con universidades</div>
+      <div class="masBeneficios__card shadow">
+          <div class="card__title masBeneficios__boton--yellow">Convenios con universidades</div>
           <div class="card__img01"></div>
       </div>
 
@@ -26,7 +26,7 @@
 
       </div>
 
-      <a href="conNacionales" class="masBeneficios__boton masBeneficios__boton--blue">
+      <a href="conNacionales" class="masBeneficios__boton masBeneficios__boton--yellow">
          Ver la red de convenios
       </a>
 
@@ -35,7 +35,7 @@
     <div class="masBeneficios__item">
 
       <div class="masBeneficios__card shadow ">
-          <div class="card__title">Red de alianzas</div>
+          <div class="card__title masBeneficios__boton--green">Red de alianzas</div>
           <div class="card__img02"></div>
       </div>
 
@@ -52,7 +52,7 @@
 
       </div>
 
-      <a href="alianzas" class="masBeneficios__boton masBeneficios__boton--blue">
+      <a href="alianzas" class="masBeneficios__boton masBeneficios__boton--green">
         Ver la red de aliados
       </a>
 
@@ -61,7 +61,7 @@
     <div class="masBeneficios__item">
 
       <div class="masBeneficios__card shadow ">
-          <div class="card__title">Orientación vocacional</div>
+          <div class="card__title masBeneficios__boton--blue">Orientación vocacional</div>
           <div class="card__img03"></div>
       </div>
 

@@ -25,7 +25,7 @@
         display: block;
         text-decoration: none;
         text-align: center;
-        background: $blue;
+        background: $orangeTwo;
         margin: auto;
         width: 200px;
         color: $white;
@@ -71,7 +71,7 @@
     h3 {
       text-align: center;
       .colorYellow {
-        @include titleOrange();
+        @include titleOrangeThree();
       }
       .colorBlue {
         @include titleBlue();
@@ -223,7 +223,7 @@
         font-size: 25px;
         font-family: $title;
         font-weight: bold;
-        color: $orange;
+        color: $blueTwo;
         opacity: 0;
       }
       p {
@@ -299,7 +299,7 @@
       width: 1150px;
     }
     .titlePlanes {
-      @include titleBlue();
+      @include titleLightPurple();
       font-size: 25px;
       opacity: 0;
     }
@@ -332,7 +332,7 @@
           background: $orange;
         }
         .fontAzul {
-          background: $blue;
+          background: $red;
         }
         .fontVerde {
           background: $green;
@@ -372,7 +372,7 @@
     @include tablet {
       width: 502px;
       height: 300px;
-    }  
+    }
     .modal {
       text-align: center;
       .videoYou {
@@ -392,7 +392,7 @@
       margin: auto;
       width: 100px;
       color: $white;
-      font-weight: bold;      
+      font-weight: bold;
       padding: 3px;
       position: absolute;
       left: 64%;
@@ -402,7 +402,7 @@
       }
       @include desktop {
         bottom: 40px;
-        left: 78%;        
+        left: 78%;
       }
     }
   }
@@ -586,7 +586,7 @@
         }
         .btnVidConocenos {
           margin: auto;
-          background: $morado;
+          background: $purple;
           width: 200px;
           text-align: center;
           padding: 10px;
@@ -597,7 +597,7 @@
           top: 50px;
           cursor: pointer;
           &:hover {
-            background: darken($morado, 10%);
+            background: darken($purple, 10%);
           }
           @include desktop {
             top: 60px;
@@ -733,14 +733,13 @@
   // * ===============================================
   // * Video Cerdito
   // * ===============================================
-  .fondo{    
-
+  .fondo {
     margin-top: 20px;
 
     header {
       position: relative;
       // background-color: red;
-      height: 430px; 
+      height: 430px;
       min-height: 25rem;
       width: 100%;
       overflow: hidden;
@@ -771,7 +770,6 @@
           color: #f5b335;
         }
       }
-
     }
 
     .text-blue {

@@ -14,7 +14,7 @@
                 shadow"
                 href="https://blog.mb.com.mx/"
       >
-          <div class="item_cuadro_title">
+          <div class="item_cuadro_title recurso__title--orange">
             Blog
           </div>
           <img src="view/src/img/recursos/blog.png" alt="blog">
@@ -28,7 +28,7 @@
                 shadow"
                 href="#"
       >
-          <div class="item_cuadro_title">
+          <div class="item_cuadro_title recurso__title--blue">
             Calculadora
           </div>
           <img src="view/src/img/recursos/calculadora.png" alt="calculadora">
@@ -41,7 +41,7 @@
                 shadow"
                 href="videos"
       >
-          <div class="item_cuadro_title">
+          <div class="item_cuadro_title recurso__title--red">
             Videos
           </div>
           <img src="view/src/img/recursos/videos.png" alt="videos">

@@ -55,13 +55,22 @@
         font-weight: bold;
         text-align: center;
         padding: 10px;
-        color: $black;
+        color: $white;
       }
       .item__parrafos {
         color: $black;
         text-align: center;
         padding: 10px;
         font-size: 14px;
+      }
+      .recurso__title--orange {
+        background: $orangeTwo;
+      }
+      .recurso__title--blue {
+        background: $blueTwo;
+      }
+      .recurso__title--red {
+        background: $red;
       }
     }
   }
