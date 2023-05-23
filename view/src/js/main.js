@@ -217,7 +217,7 @@ $(document).ready(function () {
 //* Animar AOS
 //* ===============================================
 AOS.init({
-  duration: 1200,
+  duration: 2000,
   offset: 25000,
 });
 

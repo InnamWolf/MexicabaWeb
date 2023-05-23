@@ -16,6 +16,7 @@
 
     @include desktop {
       width: 1150px;
+      display: none;
     }
 
     .titlePorque {
@@ -35,6 +36,10 @@
     width: 100%;
     height: 600px;
 
+    .titlePorqueEspecial {
+      display: none;
+    }
+
     @include tablet {
       background-image: url('../img/porque/existente_tableta.jpg');
       background-position: center;
@@ -43,6 +48,26 @@
     @include desktop {
       background-image: url('../img/porque/existente_escritorio.jpg');
       background-position: center;
+      margin-top: 30px;
+      position: relative;
+
+      .titlePorqueEspecial {
+        display: block;
+        font-family: $title;
+        font-weight: bold;
+        font-size: 40px;
+        color: $gray;
+        position: absolute;
+        top: 190px;
+        left: 360px;
+
+
+        span {
+          display: block;
+          text-align: center;
+        }
+      }
+
     }
   }
 

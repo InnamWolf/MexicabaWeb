@@ -11,27 +11,27 @@
 	<!--===============================================
 	Imagen top
 	=================================================-->
-	<div class="info__existente"></div>
+	<div class="info__existente">
+		<div class="titlePorqueEspecial">
+				<span>Impúlsalo</span>
+				<span>a cumplir</span>
+				<span>sus sueños</span>  
+		</div>
+	</div>
 
 	<div class="contenedor">
 
-		<div id="icono1" data-aos="anim1" data-aos-offset="500" data-aos-duration="new-transition"
-			data-aos-easing="ease-in-out-back"></div>
+		<div id="icono1" data-aos="anim1" data-aos-offset="500" data-aos-duration="new-transition" data-aos-easing="ease-in-out-back"></div>
 
-		<div id="icono2" data-aos="anim2" data-aos-offset="400" data-aos-duration="new-transition"
-			data-aos-easing="ease-in-out-back"></div>
+		<div id="icono2" data-aos="anim2" data-aos-offset="400" data-aos-duration="new-transition" data-aos-easing="ease-in-out-back"></div>
 
-		<div id="icono3" data-aos="anim3" data-aos-offset="500" data-aos-duration="new-transition"
-			data-aos-easing="ease-in-out-back"></div>
+		<div id="icono3" data-aos="anim3" data-aos-offset="500" data-aos-duration="new-transition" data-aos-easing="ease-in-out-back"></div>
 
-		<div id="icono4" data-aos="anim4" data-aos-offset="400" data-aos-duration="new-transition"
-			data-aos-easing="ease-in-out-back"></div>
+		<div id="icono4" data-aos="anim4" data-aos-offset="400" data-aos-duration="new-transition" data-aos-easing="ease-in-out-back"></div>
 
-		<div id="icono5" data-aos="anim5" data-aos-offset="500" data-aos-duration="new-transition"
-			data-aos-easing="ease-in-out-back"></div>
+		<div id="icono5" data-aos="anim5" data-aos-offset="500" data-aos-duration="new-transition" data-aos-easing="ease-in-out-back"></div>
 
-		<div class="slider slider-for" data-aos="anim6" data-aos-offset="500" data-aos-duration="new-transition"
-			data-aos-easing="ease-in-out">
+		<div class="slider slider-for" data-aos="anim6" data-aos-offset="500" data-aos-duration="new-transition" data-aos-easing="ease-in-out">
 
 			<div>
 				<div class="title__contenedor">Inflación educativa</div>
@@ -61,8 +61,7 @@
 			</div>
 		</div>
 
-		<div class="slider slider-nav" data-aos="fade-right" data-aos-offset="500" data-aos-duration="new-transition"
-			data-aos-easing="ease-in-out">
+		<div class="slider slider-nav" data-aos="fade-right" data-aos-offset="500" data-aos-duration="new-transition" data-aos-easing="ease-in-out">
 			<div>
 				<h3 id="option1">Inflación <br> educativa</h3>
 			</div>
