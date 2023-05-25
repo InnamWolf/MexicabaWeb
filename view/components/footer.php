@@ -48,7 +48,7 @@ FOOTER
         <p>Fideicomiso especializado para la educación operado por Santander (2003285)</p>
         <p>Oficina de Atención a clientes: <br> Av. San Jerónimo No. 458, Col. Jardines del Pedregal, Álvaro Obregón, C.P.
           01900, CDMX.
-          <br>Tels: (55) 5511 7377 – (55) 5511 8246 / 01 800 2322 700
+          <br>Tels: (55) 5511 7377 – (55) 5511 8246
         </p>
       </div>
 
