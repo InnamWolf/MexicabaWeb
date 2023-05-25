@@ -20,8 +20,11 @@
     }
 
     .titlePorque {
-      @include titleOrange();
-      margin-bottom: 30px;
+      font-family: $title;
+      font-weight: bold;
+      margin-top: 20px;
+      margin-bottom: 20px;
+      color: $gray;
     }
   }
 
@@ -43,6 +46,7 @@
     @include tablet {
       background-image: url('../img/porque/existente_tableta.jpg');
       background-position: center;
+      margin-top: 10px;
     }
 
     @include desktop {
@@ -60,7 +64,6 @@
         position: absolute;
         top: 190px;
         left: 360px;
-
 
         span {
           display: block;
