@@ -63,6 +63,17 @@
         padding: 10px;
         font-size: 14px;
       }
+      .recurso__item--boton {
+        width: 270px;
+        text-align: center;
+        padding: 5px;
+        margin: auto;
+        border-radius: 20px;
+        color: $white;
+        font-weight: bold;
+        font-family: $title;
+        margin-bottom: 14px;
+      }
       .recurso__title--orange {
         background: $orangeTwo;
       }
