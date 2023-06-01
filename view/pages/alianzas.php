@@ -44,7 +44,7 @@
             <div class="modal-content">
               <!-- Modal Header -->
               <div class="modal-header">
-                <b>ACUARIO IMBURSA</b>
+                <b>ACUARIO INBURSA</b>
                 <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
               </div>
               <!-- Modal body -->
