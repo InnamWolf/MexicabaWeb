@@ -7,7 +7,7 @@ FOOTER
 
       <div class="footer__top">      
         <div class="footer-top__item"><a href="#">Fuerza de venta</a></div>
-        <div class="footer-top__item"><a href="#">Aviso de privacidad</a></div>
+        <div class="footer-top__item"><a href="aviso">Aviso de privacidad</a></div>
       </div>
 
       <div class="footer__div"></div>
