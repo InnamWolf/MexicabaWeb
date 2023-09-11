@@ -4,7 +4,7 @@
   =================================================-->  
   <div class="imgTop">
     <div class="btnCal">
-      <a class="btnCalAnimate" href="#">¡Calcula cuánto costará <br> su educación!</a>
+      <a class="btnCalAnimate" href="#">¡Calcula cuánto costará <br> su Universidad!</a>
     </div>
   </div>
 
