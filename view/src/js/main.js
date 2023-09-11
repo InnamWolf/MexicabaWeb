@@ -99,7 +99,7 @@ $('.owl-carousel').owlCarousel({
 $('.videoPlanes').click(() => {
   $('.videoYou').attr(
     'src',
-    'https://www.youtube-nocookie.com/embed/_ng6wuoxpd0'
+    'https://www.youtube.com/embed/Au3jFLsKZw8?si=3N09Cwt54dpgBvtd'
   );
 });
 $('.btnVideo').click(() => {

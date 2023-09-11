@@ -188,7 +188,6 @@
   =================================================-->
   <div class="video">
 
-
   <a class="btn btn-color btnVideo" href="view/src/pdf/Brochure_MexicanaBecas.pdf" download="Brochure_MexicanaBecas">Ver más</a>
  
   </div>
@@ -297,7 +296,7 @@
             <button type="button" class="btn-close close-modal" data-bs-dismiss="modal"></button>
           </div>
           <div class="modal-body">
-            <iframe class="videoYou" src="https://www.youtube-nocookie.com/embed/_ng6wuoxpd0" title="YouTube tu plan"
+            <iframe class="videoYou" src="https://www.youtube.com/embed/Au3jFLsKZw8?si=3N09Cwt54dpgBvtd" title="YouTube tu plan"
               frameborder="0" allow="accelerometer;clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               allowfullscreen></iframe>
           </div>
