@@ -255,7 +255,7 @@
               <img src="view/src/img/alianzaSus.svg" alt="Suscriptor">
               <img src="view/src/img/alianzaFamDirectos.svg" alt="FamDirecto"><br>
               <b>Inscripción:</b> N/A <br>
-              <b>Colegiatura:</b> 10% al 20% * <br>
+              <b>Colegiatura:</b> 10% al 20% (NMS) <br>
               Excepto Medicina, Ciencias de la Educación, Filosofía y Ciencias Religiosas <br>  
               <b>Campus:</b> Ciudad de México
             </div>
@@ -379,8 +379,8 @@
             </div>
             <!-- Modal body -->
             <div class="modal-body">
-              <img src="view/src/img/conNvlSuperior.svg" alt="Superior">
               <img src="view/src/img/conPosgrado.svg" alt="Posgrado">
+              <img src="view/src/img/conEducacContinua.svg" alt="Continua">
               <img src="view/src/img/alianzaBeneficiario.svg" alt="Beneficiario">
               <img src="view/src/img/alianzaSus.svg" alt="Suscriptor">
               <img src="view/src/img/alianzaFamDirectos.svg" alt="FamDirecto"><br>
@@ -446,8 +446,7 @@
               <img src="view/src/img/conNvlSuperior.svg" alt="Superior">
               <img src="view/src/img/alianzaBeneficiario.svg" alt="Beneficiario"> <br>
               <b>Inscripción:</b> 20% <br>
-              <b>Colegiatura:</b> 20% <br>
-              * 5% de descuento adicional por pago de semestre completo en una sola exhibición <br>
+              <b>Colegiatura:</b> (NS) 20%, (P)20%, (ED)10% <br>
               <b>Campus:</b> Puebla
             </div>
             <div class="modal-footer">
@@ -520,24 +519,25 @@
       </div>
     </div>
 
+    <!-- 
     <div class="informacion__item shadow">
       <img class="informacion__imagen" src="view/src/img/convenios/UVM.svg" alt="uvalleMexico"  loading="lazy">
       <div class="informacion__txt" data-bs-toggle="modal" data-bs-target="#uvalleMexico"><i class="fa-solid fa-arrow-right"></i> Más 
       </div>
-      <!-- Modal -->
+      <!-- Modal 
       <div class="modal fade" id="uvalleMexico" data-bs-backdrop="static">
         <div class="modal-dialog modal-dialog-centered">
           <div class="modal-content">
-            <!-- Modal Header -->
+            <!-- Modal Header 
             <div class="modal-header"> UNIVERSIDAD DEL VALLE DE MÉXICO
               <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
             </div>
-            <!-- Modal body -->
+            <!-- Modal body 
             <div class="modal-body">
               <img src="view/src/img/conNvlSuperior.svg" alt="Superior">
               <img src="view/src/img/alianzaBeneficiario.svg" alt="Beneficiario"><br>
               <b>Inscripción:</b> N/A <br>
-              <b>Colegiatura:</b> de 10% a 20% * <br>
+              <b>Colegiatura:</b> (NMS) 30% (inscripción y colegiatura), (NVS) 30% al 60% (inscripción y colegiatura), (P) 55%, (EC) 40%. Campus: Todos los del sistema. Excepto: Programas doble titulación ni con reconocimiento internacional, así como Licenciaturas en Medicina, Veterinaria y Maestrías en Educación en línea. <br>
               <b>Campus:</b> Todos los campus del sistema
             </div>
             <div class="modal-footer">
@@ -553,15 +553,15 @@
       <img class="informacion__imagen" src="view/src/img/convenios/unitec.svg" alt="Unitec"  loading="lazy">
       <div class="informacion__txt" data-bs-toggle="modal" data-bs-target="#unitec"><i class="fa-solid fa-arrow-right"></i> Más 
       </div>
-      <!-- Modal -->
+      <!-- Modal
       <div class="modal fade" id="unitec" data-bs-backdrop="static">
         <div class="modal-dialog modal-dialog-centered">
           <div class="modal-content">
-            <!-- Modal Header -->
+            <!-- Modal Header
             <div class="modal-header"> UNIVERSIDAD TECNOLÓGICA DE MÉXICO
               <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
             </div>
-            <!-- Modal body -->
+            <!-- Modal body
             <div class="modal-body">
             <img src="view/src/img/conNvlMediSup.svg" alt="Medio">
               <img src="view/src/img/conNvlSuperior.svg" alt="Superior">
@@ -570,7 +570,7 @@
               <img src="view/src/img/alianzaSus.svg" alt="Suscriptor">
               <img src="view/src/img/alianzaFamDirectos.svg" alt="FamDirecto"><br>
               <b>Inscripción:</b> N/A <br>
-              <b>Colegiatura:</b> de 5% a 45% <br>
+              <b>Colegiatura:</b> de 5% a 45% *5% de descuento adicional sobre becas de nuevo ingreso, reingreso o cuenten con otro tipo de beca activa.  <br>
               <b>Campus:</b> Ciudad de México y Estado de México
             </div>
             <div class="modal-footer">
@@ -580,7 +580,7 @@
           </div>
         </div>
       </div>
-    </div>
+    </div> -->
 
     <div class="informacion__item shadow">
       <img class="informacion__imagen" src="view/src/img/convenios/clastro_de_sor_juana.svg" alt="Claustro"  loading="lazy">
@@ -610,6 +610,40 @@
             <div class="modal-footer">
               <button type="button" class="btn btn-color-Gray btn-sm" data-bs-dismiss="modal">Salir</button>
               <button type="button" class="btn btn-color-Orange btn-sm" data-bs-dismiss="modal"><a cla href="http://www.ucsj.edu.mx/" target="_blank">Sitio Escuela</a></button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="informacion__item shadow">
+      <img class="informacion__imagen" src="view/src/img/convenios/Tecmilenio.svg" alt="tec milenio"  loading="lazy">
+      <div class="informacion__txt" data-bs-toggle="modal" data-bs-target="#tecmilenio"><i class="fa-solid fa-arrow-right"></i> Más 
+      </div>
+      <!-- Modal -->
+      <div class="modal fade" id="tecmilenio" data-bs-backdrop="static">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+            <!-- Modal Header -->
+            <div class="modal-header"> UNIVERSIDAD TECMILENIO
+              <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+            <!-- Modal body -->
+            <div class="modal-body">
+            <img src="view/src/img/conNvlMediSup.svg" alt="Medio">
+              <img src="view/src/img/conNvlSuperior.svg" alt="Superior">
+              <img src="view/src/img/conPosgrado.svg" alt="Posgrado">
+              <img src="view/src/img/alianzaBeneficiario.svg" alt="Beneficiario">
+              <img src="view/src/img/alianzaSus.svg" alt="Suscriptor">
+              <img src="view/src/img/alianzaFamDirectos.svg" alt="FamDirecto"><br>
+              <b>Inscripción:</b> N/A <br>
+              <b>Colegiatura:</b> 10% (NMS) y del 30 al 40% (NS y P) <br>
+              presencial y en línea. <br>
+              <b>Campus:</b> Todas las del sistema.
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-color-Gray btn-sm" data-bs-dismiss="modal">Salir</button>
+              <button type="button" class="btn btn-color-Orange btn-sm" data-bs-dismiss="modal"><a cla href="https://tecmilenioenlinea.mx/s/td" target="_blank">Sitio Escuela</a></button>
             </div>
           </div>
         </div>
@@ -1499,19 +1533,19 @@
       </div>
     </div>
 
-    <div class="informacion__item shadow">
+    <!--<div class="informacion__item shadow">
       <img class="informacion__imagen" src="view/src/img/convenios/UNIDEP.svg" alt="uniProfesional"  loading="lazy">
       <div class="informacion__txt" data-bs-toggle="modal" data-bs-target="#uniProfesional"><i class="fa-solid fa-arrow-right"></i> Más 
       </div>
-      <!-- Modal -->
+       Modal 
       <div class="modal fade" id="uniProfesional" data-bs-backdrop="static">
         <div class="modal-dialog modal-dialog-centered">
           <div class="modal-content">
-            <!-- Modal Header -->
+            <!-- Modal Header 
             <div class="modal-header"> UNIVERSIDAD DEL DESARROLLO PROFESIONAL
               <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
             </div>
-            <!-- Modal body -->
+            <!-- Modal body 
             <div class="modal-body">
             <img src="view/src/img/conNvlMediSup.svg" alt="Medio">
               <img src="view/src/img/conNvlSuperior.svg" alt="Superior">
@@ -1531,7 +1565,7 @@
           </div>
         </div>
       </div>
-    </div>
+    </div>-->
 
     <div class="informacion__item shadow">
       <img class="informacion__imagen" src="view/src/img/convenios/Lamar.svg" alt="Lamar"  loading="lazy">
@@ -1671,19 +1705,19 @@
       </div>
     </div>
 
-    <div class="informacion__item shadow">
+    <!--<div class="informacion__item shadow">
       <img class="informacion__imagen" src="view/src/img/convenios/UNIVER.svg" alt="univer"  loading="lazy">
       <div class="informacion__txt" data-bs-toggle="modal" data-bs-target="#univer"><i class="fa-solid fa-arrow-right"></i> Más 
       </div>
-      <!-- Modal -->
+       Modal 
       <div class="modal fade" id="univer" data-bs-backdrop="static">
         <div class="modal-dialog modal-dialog-centered">
           <div class="modal-content">
-            <!-- Modal Header -->
+            <!-- Modal Header 
             <div class="modal-header"> UNIVERSIDAD UNIVER
               <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
             </div>
-            <!-- Modal body -->
+            <!-- Modal body
             <div class="modal-body">
             <img src="view/src/img/conNvlMediSup.svg" alt="Medio">
               <img src="view/src/img/conNvlSuperior.svg" alt="Superior">
@@ -1704,18 +1738,22 @@
           </div>
         </div>
       </div>
-    </div>
+    </div>-->
+
+
+
+
 
     <div class="informacion__item shadow">
-      <img class="informacion__imagen" src="view/src/img/convenios/Tecmilenio.svg" alt="tec milenio"  loading="lazy">
-      <div class="informacion__txt" data-bs-toggle="modal" data-bs-target="#tecmilenio"><i class="fa-solid fa-arrow-right"></i> Más 
+      <img class="informacion__imagen" src="view/src/img/convenios/ULA.svg" alt="Universidad Latinoamericana (ULA)"  loading="lazy">
+      <div class="informacion__txt" data-bs-toggle="modal" data-bs-target="#ula"><i class="fa-solid fa-arrow-right"></i> Más 
       </div>
       <!-- Modal -->
-      <div class="modal fade" id="tecmilenio" data-bs-backdrop="static">
+      <div class="modal fade" id="ula" data-bs-backdrop="static">
         <div class="modal-dialog modal-dialog-centered">
           <div class="modal-content">
             <!-- Modal Header -->
-            <div class="modal-header"> UNIVERSIDAD TECMILENIO
+            <div class="modal-header"> UNIVERSIDAD LATINOAMERICANA (ULA)
               <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
             </div>
             <!-- Modal body -->
@@ -1726,19 +1764,153 @@
               <img src="view/src/img/alianzaBeneficiario.svg" alt="Beneficiario">
               <img src="view/src/img/alianzaSus.svg" alt="Suscriptor">
               <img src="view/src/img/alianzaFamDirectos.svg" alt="FamDirecto"><br>
-              <b>Inscripción:</b> N/A <br>
-              <b>Colegiatura:</b> 10% (NMS) y del 30 al 40% (NS y P) <br>
-              presencial y en línea. <br>
+              <b>Inscripción:</b> 30% <br>
+              <b>Colegiatura:</b> 30% <br>
+              Examen de admisión sin costo. <br> 
               <b>Campus:</b> Todas las del sistema.
             </div>
             <div class="modal-footer">
               <button type="button" class="btn btn-color-Gray btn-sm" data-bs-dismiss="modal">Salir</button>
-              <button type="button" class="btn btn-color-Orange btn-sm" data-bs-dismiss="modal"><a cla href="https://tecmilenioenlinea.mx/s/td" target="_blank">Sitio Escuela</a></button>
+              <button type="button" class="btn btn-color-Orange btn-sm" data-bs-dismiss="modal"><a cla href="https://ofertaeducativacb.ula.edu.mx/mexicana-de-becas/" target="_blank">Sitio Escuela</a></button>
             </div>
           </div>
         </div>
       </div>
     </div>
+
+    <div class="informacion__item shadow">
+      <img class="informacion__imagen" src="view/src/img/convenios/UTC.svg" alt="Universidad Tres Culturas (UTC) "  loading="lazy">
+      <div class="informacion__txt" data-bs-toggle="modal" data-bs-target="#utc"><i class="fa-solid fa-arrow-right"></i> Más 
+      </div>
+      <!-- Modal -->
+      <div class="modal fade" id="utc" data-bs-backdrop="static">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+            <!-- Modal Header -->
+            <div class="modal-header"> UNIVERSIDAD TRES CULTURAS (UTC)
+              <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+            <!-- Modal body -->
+            <div class="modal-body">
+            <img src="view/src/img/conNvlMediSup.svg" alt="Medio">
+              <img src="view/src/img/conNvlSuperior.svg" alt="Superior">
+              <img src="view/src/img/conPosgrado.svg" alt="Posgrado">
+              <img src="view/src/img/alianzaBeneficiario.svg" alt="Beneficiario">
+              <img src="view/src/img/alianzaSus.svg" alt="Suscriptor">
+              <img src="view/src/img/alianzaFamDirectos.svg" alt="FamDirecto"><br>
+              <b>Inscripción:</b> 30% <br>
+              <b>Colegiatura:</b> 30% <br>
+              Examen de admisión sin costo.  <br>
+              <b>Campus:</b> Todas las del sistema.
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-color-Gray btn-sm" data-bs-dismiss="modal">Salir</button>
+              <button type="button" class="btn btn-color-Orange btn-sm" data-bs-dismiss="modal"><a cla href="https://ofertageneral.utc.mx/mexicana-de-becas/" target="_blank">Sitio Escuela</a></button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="informacion__item shadow">
+      <img class="informacion__imagen" src="view/src/img/convenios/UTEG.svg" alt="Centro Universitario UTEG"  loading="lazy">
+      <div class="informacion__txt" data-bs-toggle="modal" data-bs-target="#uteg"><i class="fa-solid fa-arrow-right"></i> Más 
+      </div>
+      <!-- Modal -->
+      <div class="modal fade" id="uteg" data-bs-backdrop="static">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+            <!-- Modal Header -->
+            <div class="modal-header"> CENTRO UNIVERSITARIO UTEG
+              <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+            <!-- Modal body -->
+            <div class="modal-body">
+            <img src="view/src/img/conNvlMediSup.svg" alt="Medio">
+              <img src="view/src/img/conNvlSuperior.svg" alt="Superior">
+              <img src="view/src/img/conPosgrado.svg" alt="Posgrado">
+              <img src="view/src/img/alianzaBeneficiario.svg" alt="Beneficiario">
+              <img src="view/src/img/alianzaSus.svg" alt="Suscriptor">
+              <img src="view/src/img/alianzaFamDirectos.svg" alt="FamDirecto"><br>
+              <b>Inscripción:</b> 30% <br>
+              <b>Colegiatura:</b> 30% <br>
+              Examen de admisión sin costo. <br>
+              <b>Campus:</b> Todas las del sistema.
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-color-Gray btn-sm" data-bs-dismiss="modal">Salir</button>
+              <button type="button" class="btn btn-color-Orange btn-sm" data-bs-dismiss="modal"><a cla href="https://aspirantes.uteg.mx/mexicana-de-becas/" target="_blank">Sitio Escuela</a></button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="informacion__item shadow">
+      <img class="informacion__imagen" src="view/src/img/convenios/UANE.svg" alt="UANE"  loading="lazy">
+      <div class="informacion__txt" data-bs-toggle="modal" data-bs-target="#uane"><i class="fa-solid fa-arrow-right"></i> Más 
+      </div>
+      <!-- Modal -->
+      <div class="modal fade" id="uane" data-bs-backdrop="static">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+            <!-- Modal Header -->
+            <div class="modal-header"> UANE
+              <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+            <!-- Modal body -->
+            <div class="modal-body">
+            <img src="view/src/img/conNvlMediSup.svg" alt="Medio">
+              <img src="view/src/img/conNvlSuperior.svg" alt="Superior">
+              <img src="view/src/img/conPosgrado.svg" alt="Posgrado">
+              <img src="view/src/img/alianzaBeneficiario.svg" alt="Beneficiario">
+              <img src="view/src/img/alianzaSus.svg" alt="Suscriptor">
+              <img src="view/src/img/alianzaFamDirectos.svg" alt="FamDirecto"><br>
+              <b>Inscripción:</b> 30% <br>
+              <b>Colegiatura:</b> 30% <br>
+              Examen de admisión sin costo. <br>
+              <b>Campus:</b> Coahuila, Monterrey y Tamaulipas. 
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-color-Gray btn-sm" data-bs-dismiss="modal">Salir</button>
+              <button type="button" class="btn btn-color-Orange btn-sm" data-bs-dismiss="modal"><a cla href="https://presencial.uane.edu.mx/mexicana-de-becas/" target="_blank">Sitio Escuela</a></button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--<div class="informacion__item shadow">
+      <img class="informacion__imagen" src="view/src/img/convenios/INDO_PREPA.svg" alt="Colegio Indoamericano (INDO)"  loading="lazy">
+      <div class="informacion__txt" data-bs-toggle="modal" data-bs-target="#indoPrepa"><i class="fa-solid fa-arrow-right"></i> Más 
+      </div>
+       Modal 
+      <div class="modal fade" id="indoPrepa" data-bs-backdrop="static">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+            <!-- Modal Header 
+            <div class="modal-header"> COLEGIO INDOAMERICANO (INDO) 
+              <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+            <!-- Modal body 
+            <div class="modal-body">
+            <img src="view/src/img/conNvlMediSup.svg" alt="Medio">
+              <img src="view/src/img/alianzaBeneficiario.svg" alt="Beneficiario">
+              <img src="view/src/img/alianzaSus.svg" alt="Suscriptor">
+              <img src="view/src/img/alianzaFamDirectos.svg" alt="FamDirecto"><br>
+              <b>Inscripción:</b> N/A <br>
+              <b>Colegiatura:</b> 30% <br>
+              Examen de admisión sin costo. <br>
+              <b>Campus:</b> Estado de México.
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-color-Gray btn-sm" data-bs-dismiss="modal">Salir</button>
+              <button type="button" class="btn btn-color-Orange btn-sm" data-bs-dismiss="modal"><a cla href="https://preparatoria.indo.edu.mx/mexicana-de-becas/" target="_blank">Sitio Escuela</a></button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>-->
 
   </div>
 
