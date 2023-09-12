@@ -1771,7 +1771,7 @@
             </div>
             <div class="modal-footer">
               <button type="button" class="btn btn-color-Gray btn-sm" data-bs-dismiss="modal">Salir</button>
-              <button type="button" class="btn btn-color-Orange btn-sm" data-bs-dismiss="modal"><a cla href="" target="_blank">Sitio Escuela</a></button>
+              <button type="button" class="btn btn-color-Orange btn-sm" data-bs-dismiss="modal"><a cla href="https://ofertaeducativacb.ula.edu.mx/mexicana-de-becas/" target="_blank">Sitio Escuela</a></button>
             </div>
           </div>
         </div>
@@ -1805,7 +1805,7 @@
             </div>
             <div class="modal-footer">
               <button type="button" class="btn btn-color-Gray btn-sm" data-bs-dismiss="modal">Salir</button>
-              <button type="button" class="btn btn-color-Orange btn-sm" data-bs-dismiss="modal"><a cla href="" target="_blank">Sitio Escuela</a></button>
+              <button type="button" class="btn btn-color-Orange btn-sm" data-bs-dismiss="modal"><a cla href="https://ofertageneral.utc.mx/mexicana-de-becas/" target="_blank">Sitio Escuela</a></button>
             </div>
           </div>
         </div>
@@ -1839,7 +1839,7 @@
             </div>
             <div class="modal-footer">
               <button type="button" class="btn btn-color-Gray btn-sm" data-bs-dismiss="modal">Salir</button>
-              <button type="button" class="btn btn-color-Orange btn-sm" data-bs-dismiss="modal"><a cla href="" target="_blank">Sitio Escuela</a></button>
+              <button type="button" class="btn btn-color-Orange btn-sm" data-bs-dismiss="modal"><a cla href="https://aspirantes.uteg.mx/mexicana-de-becas/" target="_blank">Sitio Escuela</a></button>
             </div>
           </div>
         </div>
@@ -1873,7 +1873,7 @@
             </div>
             <div class="modal-footer">
               <button type="button" class="btn btn-color-Gray btn-sm" data-bs-dismiss="modal">Salir</button>
-              <button type="button" class="btn btn-color-Orange btn-sm" data-bs-dismiss="modal"><a cla href="" target="_blank">Sitio Escuela</a></button>
+              <button type="button" class="btn btn-color-Orange btn-sm" data-bs-dismiss="modal"><a cla href="https://presencial.uane.edu.mx/mexicana-de-becas/" target="_blank">Sitio Escuela</a></button>
             </div>
           </div>
         </div>
@@ -1905,7 +1905,7 @@
             </div>
             <div class="modal-footer">
               <button type="button" class="btn btn-color-Gray btn-sm" data-bs-dismiss="modal">Salir</button>
-              <button type="button" class="btn btn-color-Orange btn-sm" data-bs-dismiss="modal"><a cla href="https://tecmilenioenlinea.mx/s/td" target="_blank">Sitio Escuela</a></button>
+              <button type="button" class="btn btn-color-Orange btn-sm" data-bs-dismiss="modal"><a cla href="https://preparatoria.indo.edu.mx/mexicana-de-becas/" target="_blank">Sitio Escuela</a></button>
             </div>
           </div>
         </div>
