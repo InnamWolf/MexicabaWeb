@@ -1,7 +1,7 @@
 //*Compilar SASS: sass --watch view/src/sass/main.scss:view/src/css/main.css --style compressed
 
 // * ===============================================
-// * Este archivo solo tendra inportaciones de otros archivos
+// * Este archivo solo tendra importaciones de otros archivos
 // * ===============================================
 
 // * ===============================================
@@ -17,6 +17,7 @@
 @import 'components/nav.scss';
 @import 'components/footer.scss';
 @import 'components/whatsApp.scss';
+@import 'components/cookies.scss';
 
 // * ===============================================
 // * PAGES
