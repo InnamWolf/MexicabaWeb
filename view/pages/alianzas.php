@@ -549,6 +549,75 @@
     </div> <!-- Iten-shadow -->
 
     <!--===============================================
+    CLUB CAÑADA
+    =================================================-->
+
+    <div class="informacion__item shadow">
+
+      <img class="informacion__imagen" src="view/src/img/alianzas/city.svg" alt="PlanPrepa" loading="lazy">
+
+      <div class="informacion__txt" data-bs-toggle="modal" data-bs-target="#canada"><i class="fa-solid fa-arrow-right"></i> Más </div>
+
+        <!-- Modal -->
+        <div class="modal fade" id="canada" data-bs-backdrop="static">
+
+          <div class="modal-dialog modal-dialog-centered">
+
+            <div class="modal-content">
+              <!-- Modal Header -->
+              <div class="modal-header">
+                <b>Club Cañada</b>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+              </div> <!-- Header modal -->
+
+              <!-- Modal body -->
+              <div class="modal-body">
+
+                <div class="modal__simbologia">
+
+                  <div class="modal__simbologia__item">
+                    <div class="modal__item__logo"><img src="view/src/img/alianzaBeneficiario.svg" alt="BENEFICIARIO"> </div>                    
+                  </div>
+
+                  <div class="modal__simbologia__item">
+                    <div class="modal__item__logo"><img src="view/src/img/alianzaSus.svg" alt="SUSCRIPTORES"> </div>
+                  </div>
+
+                  <div class="modal__simbologia__item">
+                    <div class="modal__item__logo"><img src="view/src/img/alianzaFamDirectos.svg" alt="FAMILIARES"> </div>                    
+                  </div>
+
+                </div>
+
+                <p><b>BENEFICIOS Y RESTRICCIONES:</b></p>
+
+                <ul>
+                  <li>
+                    30% de descuento en el momento de la inscripción a clases de natación de niños, niños especiales, papás con bebés y clases para adultos.
+                  </li>                        
+                </ul>
+
+                <p><b>SUCURSALES:</b></p>
+                <p>
+                  Todas las del sistema.
+                </p>
+                
+              </div> <!-- Modal body -->
+
+              <div class="modal-footer">
+                <button type="button" class="btn btn-sm btn__salir" data-bs-dismiss="modal">Salir</button>
+                <button type="button" class="btn btn-sm btn__info"data-bs-dismiss="modal"><a  href="https://www.ccnatacion.com/" target="_blank">Sitio Aliado</a></button>
+              </div> <!-- Modal footer -->
+
+            </div> <!-- Conten modal -->
+
+          </div> <!-- Modal interno -->
+
+        </div> <!-- Modal completo -->
+
+    </div> <!-- Iten-shadow -->
+
+    <!--===============================================
     DentCell   
     =================================================-->
 
@@ -851,90 +920,6 @@
     </div> <!-- Iten-shadow -->
 
     <!--===============================================
-    Sotano   
-    =================================================-->
-
-    <div class="informacion__item shadow">
-
-      <img class="informacion__imagen" src="view/src/img/alianzas/el_sotano.svg" alt="PlanPrepa" loading="lazy">
-
-      <div class="informacion__txt" data-bs-toggle="modal" data-bs-target="#sotano"><i class="fa-solid fa-arrow-right"></i> Más </div>
-
-        <!-- Modal -->
-        <div class="modal fade" id="sotano" data-bs-backdrop="static">
-
-          <div class="modal-dialog modal-dialog-centered">
-
-            <div class="modal-content">
-              <!-- Modal Header -->
-              <div class="modal-header">
-                <b>El Sotano</b>
-                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
-              </div> <!-- Header modal -->
-
-              <!-- Modal body -->
-              <div class="modal-body">
-
-                <div class="modal__simbologia">
-
-                  <div class="modal__simbologia__item">
-                    <div class="modal__item__logo"><img src="view/src/img/alianzaBeneficiario.svg" alt="BENEFICIARIO"> </div>                    
-                  </div>
-
-                  <div class="modal__simbologia__item">
-                    <div class="modal__item__logo"><img src="view/src/img/alianzaSus.svg" alt="SUSCRIPTORES"> </div>
-                  </div>
-
-                  <div class="modal__simbologia__item">
-                    <div class="modal__item__logo"><img src="view/src/img/alianzaFamDirectos.svg" alt="FAMILIARES"> </div>                    
-                  </div>
-
-                </div>
-
-                <p><b>BENEFICIOS Y RESTRICCIONES:</b></p>
-
-                <ul>
-                  <li>
-                    Tarjeta de Cliente Frecuente sin costo.
-                  </li>                        
-                  <li>
-                    12% en puntos, los cuales se abonarán en la “TCF”, en compras de artículos sin descuento.
-                  </li>                  
-                  <li>
-                    5% en puntos, los cuales se abonarán a la “TCF”, en compras de artículos con descuento.
-                  </li>
-                  <li>
-                    7% en puntos, los cuales se abonarán a la “TCF”, en compras de libros escolares, aplica a libros nivel preescolar, primaria, secundaria, bachillerato y preparatoria abierta (porcentaje vigente durante el 2019 y en las fechas que determine Librerías El Sótano).
-                  </li>
-                  <li>
-                    Cada punto acumulado en la TCF equivale a $1.00 M.N. Los puntos acumulados podrán ser utilizados para comprar productos en Librerías el Sótano.
-                  </li>
-                  <li>
-                    Los puntos tienen vigencia de un año.
-                  </li>
-                </ul>
-
-                <p><b>SUCURSALES:</b></p>
-                <p>
-                  Todas las del sistema.
-                </p>
-                
-              </div> <!-- Modal body -->
-
-              <div class="modal-footer">
-                <button type="button" class="btn btn-sm btn__salir" data-bs-dismiss="modal">Salir</button>
-                <button type="button" class="btn btn-sm btn__info"data-bs-dismiss="modal"><a  href="http://www.elsotano.com/" target="_blank">Sitio Aliado</a></button>
-              </div> <!-- Modal footer -->
-
-            </div> <!-- Conten modal -->
-
-          </div> <!-- Modal interno -->
-
-        </div> <!-- Modal completo -->
-
-    </div> <!-- Iten-shadow -->
-
-    <!--===============================================
     Etobe   
     =================================================-->
 
@@ -1007,181 +992,7 @@
 
         </div> <!-- Modal completo -->
 
-    </div> <!-- Iten-shadow -->
-
-    <!--===============================================
-    Gayosso   
-    =================================================-->
-
-    <div class="informacion__item shadow">
-
-      <img class="informacion__imagen" src="view/src/img/alianzas/gayosso.svg" alt="PlanPrepa" loading="lazy">
-
-      <div class="informacion__txt" data-bs-toggle="modal" data-bs-target="#gayosso"><i class="fa-solid fa-arrow-right"></i> Más </div>
-
-        <!-- Modal -->
-        <div class="modal fade" id="gayosso" data-bs-backdrop="static">
-
-          <div class="modal-dialog modal-dialog-centered">
-
-            <div class="modal-content">
-              <!-- Modal Header -->
-              <div class="modal-header">
-                <b>Gayosso</b>
-                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
-              </div> <!-- Header modal -->
-
-              <!-- Modal body -->
-              <div class="modal-body">
-
-                <div class="modal__simbologia">
-
-                  <div class="modal__simbologia__item">
-                    <div class="modal__item__logo"><img src="view/src/img/alianzaBeneficiario.svg" alt="BENEFICIARIO"> </div>                    
-                  </div>
-
-                  <div class="modal__simbologia__item">
-                    <div class="modal__item__logo"><img src="view/src/img/alianzaSus.svg" alt="SUSCRIPTORES"> </div>
-                  </div>
-
-                  <div class="modal__simbologia__item">
-                    <div class="modal__item__logo"><img src="view/src/img/alianzaFamDirectos.svg" alt="FAMILIARES"> </div>                    
-                  </div>
-
-                </div>
-
-                <p><b>BENEFICIOS Y RESTRICCIONES:</b></p>
-
-                <ul>
-                  <li>
-                    10% de Descuento en Propiedades (NICHOS Y GAVETAS).
-                  </li>                        
-                  <li>
-                    25% de descuento en la contratación de dos Servicios Funerarios de previsión (Paquetes Iguales).
-                  </li>                  
-                  <li>
-                    25% de descuento en la contratación de 3 o 4 Servicios Funerarios de previsión (Paquetes Iguales).
-                  </li>
-                  <li>
-                    30% de descuento en 1 Servicio Integral de previsión (Servicio Funerario con Propiedad [Nicho o Lote en Cementerio]).
-                  </li>
-                  <li>
-                    30% de descuento en 2 Servicios Integrales de previsión (Servicio Funerario con Propiedad [Nicho o Lote en Cementerio]).
-                  </li>
-                  <li>
-                    30% de descuento en 3 o más Servicios Integrales de previsión (Servicio Funerario con Propiedad [Nicho o Lote en Cementerio]).
-                  </li>
-                  <li>
-                    Descuento adicional por forma de Pago en servicios de Previsión: Contado, Domiciliada a tarjeta de crédito (36 meses), meses sin intereses (solo tarjetas de crédito participantes).
-                  </li>
-                  <li>
-                    15% de Descuento directo en Servicio de Uso Inmediato.
-                  </li>
-                  <li>
-                    Los descuentos anteriormente señalados sólo aplicarán en los siguientes casos: I) Se aplicarán sobre los precios de lista vigentes al momento de la adquisición, otorgando un plazo máximo para pagar de 36 meses. II) Aplican en paquetes seleccionados del Catálogo de Productos vigentes por plaza. III) La disponibilidad de los descuentos puede cambiar por inventario de propiedades. IV) Los Servicios Funerarios deben ser de la misma categoría, los cuales estarán sujetos a la disponibilidad de los mismos de acuerdo con la agencia seleccionada. V) Los paquetes integrales de cementerio deben combinarse con Servicios Funerarios de inhumación. VI) Los paquetes integrales de nichos deben combinarse con Servicios Funerarios de cremación. VII) Los descuentos aquí señaladas no aplicaran con otras promociones que Grupo Gayosso tenga al público en general durante la vigencia de la presente. VIII) Los precios de los servicios que ofrece Grupo Gayosso no incluyen los derechos que deben pagarse por la expedición de permisos de inhumación, cremación, ni tampoco los de apertura y cierre de gavetas en cementerios, cuyo importe corresponden a las tarifas vigentes establecidas en cada municipio.
-                  </li>
-                </ul>
-
-                <p><b>SUCURSALES:</b></p>
-                <p>
-                  Todas las del sistema.
-                </p>
-                
-              </div> <!-- Modal body -->
-
-              <div class="modal-footer">
-                <button type="button" class="btn btn-sm btn__salir" data-bs-dismiss="modal">Salir</button>
-                <button type="button" class="btn btn-sm btn__info"data-bs-dismiss="modal"><a  href="https://www.gayosso.com/" target="_blank">Sitio Aliado</a></button>
-              </div> <!-- Modal footer -->
-
-            </div> <!-- Conten modal -->
-
-          </div> <!-- Modal interno -->
-
-        </div> <!-- Modal completo -->
-
-    </div> <!-- Iten-shadow -->
-
-    <!--===============================================
-    HappySwim  
-    =================================================-->
-
-    <div class="informacion__item shadow">
-
-      <img class="informacion__imagen" src="view/src/img/alianzas/happyswim.svg" alt="PlanPrepa" loading="lazy">
-
-      <div class="informacion__txt" data-bs-toggle="modal" data-bs-target="#happy"><i class="fa-solid fa-arrow-right"></i> Más </div>
-
-        <!-- Modal -->
-        <div class="modal fade" id="happy" data-bs-backdrop="static">
-
-          <div class="modal-dialog modal-dialog-centered">
-
-            <div class="modal-content">
-              <!-- Modal Header -->
-              <div class="modal-header">
-                <b>Happy Swim</b>
-                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
-              </div> <!-- Header modal -->
-
-              <!-- Modal body -->
-              <div class="modal-body">
-
-                <div class="modal__simbologia">
-
-                  <div class="modal__simbologia__item">
-                    <div class="modal__item__logo"><img src="view/src/img/alianzaBeneficiario.svg" alt="BENEFICIARIO"> </div>                    
-                  </div>
-
-                  <div class="modal__simbologia__item">
-                    <div class="modal__item__logo"><img src="view/src/img/alianzaSus.svg" alt="SUSCRIPTORES"> </div>
-                  </div>
-
-                  <div class="modal__simbologia__item">
-                    <div class="modal__item__logo"><img src="view/src/img/alianzaFamDirectos.svg" alt="FAMILIARES"> </div>                    
-                  </div>
-
-                </div>
-
-                <p><b>BENEFICIOS Y RESTRICCIONES:</b></p>
-
-                <ul>
-                  <li>
-                    50% de descuento en inscripción.
-                  </li>                        
-                  <li>
-                    10% de descuento en mensualidad.
-                  </li>                  
-                  <li>
-                    No aplica con otras promociones.
-                  </li>
-                  <li>
-                    Valido únicamente para nuevos ingresos.
-                  </li>
-                  <li>
-                    El descuento solo se aplica en la primera mensualidad.
-                  </li>                  
-                </ul>
-
-                <p><b>SUCURSALES:</b></p>
-                <p>
-                  Ciudad de México.
-                </p>
-                
-              </div> <!-- Modal body -->
-
-              <div class="modal-footer">
-                <button type="button" class="btn btn-sm btn__salir" data-bs-dismiss="modal">Salir</button>
-                <button type="button" class="btn btn-sm btn__info"data-bs-dismiss="modal"><a  href="https://www.happyswimschool.com/" target="_blank">Sitio Aliado</a></button>
-              </div> <!-- Modal footer -->
-
-            </div> <!-- Conten modal -->
-
-          </div> <!-- Modal interno -->
-
-        </div> <!-- Modal completo -->
-
-    </div> <!-- Iten-shadow -->
+    </div> <!-- Iten-shadow -->        
 
     <!--===============================================
     Montessori
@@ -1254,79 +1065,7 @@
         </div> <!-- Modal completo -->
 
     </div> <!-- Iten-shadow -->
-
-    <!--===============================================
-    IMOVO
-    =================================================-->
-
-    <div class="informacion__item shadow">
-
-      <img class="informacion__imagen" src="view/src/img/alianzas/imovo.svg" alt="PlanPrepa" loading="lazy">
-
-      <div class="informacion__txt" data-bs-toggle="modal" data-bs-target="#imovo"><i class="fa-solid fa-arrow-right"></i> Más </div>
-
-        <!-- Modal -->
-        <div class="modal fade" id="imovo" data-bs-backdrop="static">
-
-          <div class="modal-dialog modal-dialog-centered">
-
-            <div class="modal-content">
-              <!-- Modal Header -->
-              <div class="modal-header">
-                <b>IMOVO</b>
-                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
-              </div> <!-- Header modal -->
-
-              <!-- Modal body -->
-              <div class="modal-body">
-
-                <div class="modal__simbologia">
-
-                  <div class="modal__simbologia__item">
-                    <div class="modal__item__logo"><img src="view/src/img/alianzaBeneficiario.svg" alt="BENEFICIARIO"> </div>                    
-                  </div>
-
-                  <div class="modal__simbologia__item">
-                    <div class="modal__item__logo"><img src="view/src/img/alianzaSus.svg" alt="SUSCRIPTORES"> </div>
-                  </div>
-
-                  <div class="modal__simbologia__item">
-                    <div class="modal__item__logo"><img src="view/src/img/alianzaFamDirectos.svg" alt="FAMILIARES"> </div>                    
-                  </div>
-
-                </div>
-
-                <p><b>BENEFICIOS Y RESTRICCIONES:</b></p>
-
-                <ul>
-                  <li>
-                    10% de descuento de descuento en todos los servicios de orientación vocacional que se contraten.
-                  </li>                        
-                  <li>
-                    El descuento se aplicará al precio público en vigor al momento de la contratación del servicio.
-                  </li>                                    
-                </ul>
-
-                <p><b>SUCURSALES:</b></p>
-                <p>
-                  Ciudad de México.
-                </p>
-                
-              </div> <!-- Modal body -->
-
-              <div class="modal-footer">
-                <button type="button" class="btn btn-sm btn__salir" data-bs-dismiss="modal">Salir</button>
-                <button type="button" class="btn btn-sm btn__info"data-bs-dismiss="modal"><a  href="https://www.imovo.club/" target="_blank">Sitio Aliado</a></button>
-              </div> <!-- Modal footer -->
-
-            </div> <!-- Conten modal -->
-
-          </div> <!-- Modal interno -->
-
-        </div> <!-- Modal completo -->
-
-    </div> <!-- Iten-shadow -->
-
+    
     <!--===============================================
     Jumpin
     =================================================-->
@@ -1620,76 +1359,7 @@
         </div> <!-- Modal completo -->
 
     </div> <!-- Iten-shadow -->
-
-    <!--===============================================
-    GANDHI
-    =================================================-->
-
-    <div class="informacion__item shadow">
-
-      <img class="informacion__imagen" src="view/src/img/alianzas/gandhi.svg" alt="PlanPrepa" loading="lazy">
-
-      <div class="informacion__txt" data-bs-toggle="modal" data-bs-target="#gandhi"><i class="fa-solid fa-arrow-right"></i> Más </div>
-
-        <!-- Modal -->
-        <div class="modal fade" id="gandhi" data-bs-backdrop="static">
-
-          <div class="modal-dialog modal-dialog-centered">
-
-            <div class="modal-content">
-              <!-- Modal Header -->
-              <div class="modal-header">
-                <b>Gandhi</b>
-                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
-              </div> <!-- Header modal -->
-
-              <!-- Modal body -->
-              <div class="modal-body">
-
-                <div class="modal__simbologia">
-
-                  <div class="modal__simbologia__item">
-                    <div class="modal__item__logo"><img src="view/src/img/alianzaBeneficiario.svg" alt="BENEFICIARIO"> </div>                    
-                  </div>
-
-                  <div class="modal__simbologia__item">
-                    <div class="modal__item__logo"><img src="view/src/img/alianzaSus.svg" alt="SUSCRIPTORES"> </div>
-                  </div>
-
-                  <div class="modal__simbologia__item">
-                    <div class="modal__item__logo"><img src="view/src/img/alianzaFamDirectos.svg" alt="FAMILIARES"> </div>                    
-                  </div>
-
-                </div>
-
-                <p><b>BENEFICIOS Y RESTRICCIONES:</b></p>
-
-                <ul>
-                  <li>
-                    50% más un 10% adicional para el programa de capacitación en inglés en inscipción y mensualidades posteriores.
-                  </li>                  
-                </ul>
-
-                <p><b>SUCURSALES:</b></p>
-                <p>
-                  Todas las del sistema.
-                </p>
-                
-              </div> <!-- Modal body -->
-
-              <div class="modal-footer">
-                <button type="button" class="btn btn-sm btn__salir" data-bs-dismiss="modal">Salir</button>
-                <button type="button" class="btn btn-sm btn__info"data-bs-dismiss="modal"><a  href="http://www.gandhi.com.mx/" target="_blank">Sitio Aliado</a></button>
-              </div> <!-- Modal footer -->
-
-            </div> <!-- Conten modal -->
-
-          </div> <!-- Modal interno -->
-
-        </div> <!-- Modal completo -->
-
-    </div> <!-- Iten-shadow -->
-
+    
     <!--===============================================
     PORRUA
     =================================================-->
@@ -2042,6 +1712,204 @@
     </div> <!-- Iten-shadow -->
 
     <!--===============================================
+    QUÁLITAS
+    =================================================-->
+
+    <div class="informacion__item shadow">
+
+      <img class="informacion__imagen" src="view/src/img/alianzas/qualitas.svg" alt="PlanPrepa" loading="lazy">
+
+      <div class="informacion__txt" data-bs-toggle="modal" data-bs-target="#qualitas"><i class="fa-solid fa-arrow-right"></i> Más </div>
+
+        <!-- Modal -->
+        <div class="modal fade" id="qualitas" data-bs-backdrop="static">
+
+          <div class="modal-dialog modal-dialog-centered">
+
+            <div class="modal-content">
+              <!-- Modal Header -->
+              <div class="modal-header">
+                <b>QUÁLITAS - SEGURO DE AUTOS</b>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+              </div> <!-- Header modal -->
+
+              <!-- Modal body -->
+              <div class="modal-body">
+
+                <div class="modal__simbologia">
+
+                  <div class="modal__simbologia__item">
+                    <div class="modal__item__logo"><img src="view/src/img/alianzaBeneficiario.svg" alt="BENEFICIARIO"> </div>                    
+                  </div>
+
+                  <div class="modal__simbologia__item">
+                    <div class="modal__item__logo"><img src="view/src/img/alianzaSus.svg" alt="SUSCRIPTORES"> </div>
+                  </div>
+
+                  <div class="modal__simbologia__item">
+                    <div class="modal__item__logo"><img src="view/src/img/alianzaFamDirectos.svg" alt="FAMILIARES"> </div>                    
+                  </div>
+
+                </div>
+
+                <p><b>BENEFICIOS Y RESTRICCIONES:</b></p>
+
+                <ul>
+                  <li>
+                    Tarifa fija y primas preferenciales.
+                  </li>
+
+                  <li>
+                    Paquetes de acuerdo a tus necesidades (Amplia, Limitada y RC).
+                  </li>
+
+                  <li>
+                  	Valor convenido 
+                  </li>
+
+                  <li>
+                  	Asistencia Vial Plus
+                  </li>
+
+                  <li>
+                    Pagos fraccionados: mensual, trimestral semestral y anual.
+                  </li>                  
+                </ul>
+
+                <p><b>COBERTURAS:</b></p>
+
+                  <ul>
+                    <li>
+                      Daños materiales
+                    </li>
+
+                    <li>
+                      Robo Total
+                    </li>
+
+                    <li>
+                      Responsabilidad Civil por Daños a Terceros por $ 6,000,000
+                    </li>
+
+                    <li>
+                      Gastos Médicos Ocupantes por $ 500,000
+                    </li>
+
+                    <li>
+                      Gastos de Transporte por PT por $ 15,000 que se pagarán adicional a la indemnización
+                    </li>   
+
+                    <li>
+                      Gastos Legales
+                    </li>               
+                    
+                    <li>
+                      Asistencia Vial Plus
+                    </li>
+
+                    <li>
+                      Muerte al Conductor por Accidente Automovilístico
+                    </li>
+                  </ul>
+
+                <p><b>CONTACTO:</b></p>
+                <p>
+                  Clic <a href="https://oplinea.qualitas.com.mx/q.php?MEXICANADEBECAS" target="_blank">aquí</a> para cotizar o contacta a: Gerardo Garza Frisbie - 55 5419 1727 - <a href="mailto:gerardo.garza@gfhkpromotores.com"> gerardo.garza@gfhkpromotores.com;</a> José Amado Harfuch - 55 5496 9986 -<a href="mailto:joseamado.harfuch@gfhkpromotores.com"> joseamado.harfuch@gfhkpromotores.com;</a> Ivonne Santamaria - 55 4800 3622 - <a href="mailto:ivonne.santamaria@gfhkpromotores.com">ivonne.santamaria@gfhkpromotores.com</a>
+                </p>
+
+                <p><b>SUCURSALES:</b></p>
+                <p>
+                 Online
+                </p>
+                
+              </div> <!-- Modal body -->
+
+              <div class="modal-footer">
+                <button type="button" class="btn btn-sm btn__salir" data-bs-dismiss="modal">Salir</button>
+                <button type="button" class="btn btn-sm btn__info"data-bs-dismiss="modal"><a  href="https://www.nh-hotels.com.mx/" target="_blank">Sitio Aliado</a></button>
+              </div> <!-- Modal footer -->
+
+            </div> <!-- Conten modal -->
+
+          </div> <!-- Modal interno -->
+
+        </div> <!-- Modal completo -->
+
+    </div> <!-- Iten-shadow -->
+
+    <!--===============================================
+    QUICK LEARNING
+    =================================================-->
+
+    <div class="informacion__item shadow">
+
+      <img class="informacion__imagen" src="view/src/img/alianzas/quickLearning.svg" alt="PlanPrepa" loading="lazy">
+
+      <div class="informacion__txt" data-bs-toggle="modal" data-bs-target="#quick"><i class="fa-solid fa-arrow-right"></i> Más </div>
+
+        <!-- Modal -->
+        <div class="modal fade" id="quick" data-bs-backdrop="static">
+
+          <div class="modal-dialog modal-dialog-centered">
+
+            <div class="modal-content">
+              <!-- Modal Header -->
+              <div class="modal-header">
+                <b>QUICK LEARNING</b>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+              </div> <!-- Header modal -->
+
+              <!-- Modal body -->
+              <div class="modal-body">
+
+                <div class="modal__simbologia">
+
+                  <div class="modal__simbologia__item">
+                    <div class="modal__item__logo"><img src="view/src/img/alianzaBeneficiario.svg" alt="BENEFICIARIO"> </div>                    
+                  </div>
+
+                  <div class="modal__simbologia__item">
+                    <div class="modal__item__logo"><img src="view/src/img/alianzaSus.svg" alt="SUSCRIPTORES"> </div>
+                  </div>
+
+                  <div class="modal__simbologia__item">
+                    <div class="modal__item__logo"><img src="view/src/img/alianzaFamDirectos.svg" alt="FAMILIARES"> </div>                    
+                  </div>
+
+                </div>
+
+                <p><b>BENEFICIOS Y RESTRICCIONES:</b></p>
+
+                <ul>
+                  <li>
+                    Precio preferencial de $350.00 (mensual) en curso Quick Learning Online.
+                  </li>                                
+                  <li>
+                  	30% de descuento en cursos modalidad presencial o virtual sobre los precios de lista.
+                  </li>
+                </ul>                
+
+                <p><b>SUCURSALES:</b></p>
+                <p>
+                  Todas las del sistema.
+                </p>
+                
+              </div> <!-- Modal body -->
+
+              <div class="modal-footer">
+                <button type="button" class="btn btn-sm btn__salir" data-bs-dismiss="modal">Salir</button>
+                <button type="button" class="btn btn-sm btn__info"data-bs-dismiss="modal"><a  href="https://www.nh-hotels.com.mx/" target="_blank">Sitio Aliado</a></button>
+              </div> <!-- Modal footer -->
+
+            </div> <!-- Conten modal -->
+
+          </div> <!-- Modal interno -->
+
+        </div> <!-- Modal completo -->
+
+    </div> <!-- Iten-shadow -->
+
+    <!--===============================================
     RECORCHOLIS
     =================================================-->
 
@@ -2225,7 +2093,7 @@
 
                 <ul>
                   <li>
-                    Precios especiales, solo compra en línea. <br><b>Six Flags México</b> https://bit.ly/3JjWxGB <br><b>Hurricane Harbor Oaxtepec</b> https://bit.ly/33dxB49
+                    Precios especiales, solo compra en línea. <br><b>Six Flags México</b> https://bit.ly/3QQNK69 <br><b>Hurricane Harbor Oaxtepec</b> https://bit.ly/44wf5NT
                   </li>           
                   <li>
                     Precio preferencial por temporada y adquiriendo boletos en línea.
@@ -2247,7 +2115,7 @@
 
               <div class="modal-footer">
                 <button type="button" class="btn btn-sm btn__salir" data-bs-dismiss="modal">Salir</button>
-                <button type="button" class="btn btn-sm btn__info"data-bs-dismiss="modal"> <a href="https://bit.ly/3BoWB4J" target="_blank">Sitio Aliado</a></button>
+                <button type="button" class="btn btn-sm btn__info"data-bs-dismiss="modal"> <a href="https://www.sixflags.com.mx/mexico" target="_blank">Sitio Aliado</a></button>
               </div> <!-- Modal footer -->
 
             </div> <!-- Conten modal -->
@@ -2485,6 +2353,78 @@
                 <p><b>SUCURSALES:</b></p>
                 <p>
                   No aplica en los Estados de Yucatán y Quintana Roo (Consultar sucursales participantes).
+                </p>
+                
+              </div> <!-- Modal body -->
+
+              <div class="modal-footer">
+                <button type="button" class="btn btn-sm btn__salir" data-bs-dismiss="modal">Salir</button>
+                <button type="button" class="btn btn-sm btn__info"data-bs-dismiss="modal"> <a href="https://www.tintoreriasmax.com/" target="_blank">Sitio Aliado</a></button>
+              </div> <!-- Modal footer -->
+
+            </div> <!-- Conten modal -->
+
+          </div> <!-- Modal interno -->
+
+        </div> <!-- Modal completo -->
+
+    </div> <!-- Iten-shadow -->
+
+    <!--===============================================
+    Royal Holiday 
+    =================================================-->
+
+    <div class="informacion__item shadow">
+
+      <img class="informacion__imagen" src="view/src/img/alianzas/royal.svg" alt="PlanPrepa" loading="lazy">
+
+      <div class="informacion__txt" data-bs-toggle="modal" data-bs-target="#royal"><i class="fa-solid fa-arrow-right"></i> Más </div>
+
+        <!-- Modal -->
+        <div class="modal fade" id="royal" data-bs-backdrop="static">
+
+          <div class="modal-dialog modal-dialog-centered">
+
+            <div class="modal-content">
+              <!-- Modal Header -->
+              <div class="modal-header">
+                <b>Royal Holiday</b>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+              </div> <!-- Header modal -->
+
+              <!-- Modal body -->
+              <div class="modal-body">
+
+                <div class="modal__simbologia" style="width: 45px;">
+
+                  <div class="modal__simbologia__item">
+                    <div class="modal__item__logo"><img src="view/src/img/alianzaSus.svg" alt="SUSCRIPTORES"> </div>
+                  </div>
+
+                  <div class="modal__simbologia__item">
+                    <div class="modal__item__logo"><img src="view/src/img/alianzaFamDirectos.svg" alt="FAMILIARES"> </div>                    
+                  </div>                  
+
+                </div>
+
+                <p><b>BENEFICIOS Y RESTRICCIONES:</b></p>
+
+                <ul>
+                  <li>Certificado Royal Holiday.</li>           
+                  <li>2 adultos y 2 menores de 6 años.</li>       
+                  <li>Incluye alimentos y bebidas ilimitados (all-inclusive).</li>
+                  <li>Destinos: Cancún, Cozumel, Puerto Vallarta, Huatulco, Acapulco e Ixtapa.</li>  
+                  <li>Asistencia de viaje.</li>
+                  <li>Tarifa preferencial del $4,999 mxn.</li>
+                  <li>Esta promoción podrá ser utilizada una sola vez.</li>
+                  <li>Aplica para parejas y conyugues en unión libre entre 30 y 60 años.</li>
+                  <li>Esta promoción es una invitación de hospedaje de Royal Holiday para conocer su concepto vacacional.</li>
+                  <li>Más información: <a href="https://www.conoce.royal-holiday.com/mexicana-becas/" target="_blank">https://www.conoce.royal-holiday.com/mexicana-becas/</a></li>                
+                </ul>
+
+                <p><b>SUCURSALES:</b></p>
+                <p>
+                  Online
                 </p>
                 
               </div> <!-- Modal body -->
