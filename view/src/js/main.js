@@ -73,7 +73,27 @@ $(window).scroll(() => {
 });
 
 //* ===============================================
-//* Carousel
+//* Carousel 1
+//* ===============================================
+
+$('.owl-carousel').owlCarousel({
+  loop: true,
+  autoplay: true,
+  autoplayTimeout: 5000,
+  autoplayHoverPause: true,
+  center: true,
+  items: 1,
+  margin: 12,
+  responsiveClass: true,
+  responsive: {
+    0: {
+      items: 1,
+    },
+  },
+});
+
+//* ===============================================
+//* Carousel 2
 //* ===============================================
 
 $('.owl-carousel').owlCarousel({

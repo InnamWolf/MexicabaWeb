@@ -2,7 +2,23 @@
   <!--===============================================
   IMAGEN PRINICPAL
   =================================================-->  
-  <div class="imgTop">
+  <!-- <div class="imgTop">
+    <div class="btnCal">
+      <a class="btnCalAnimate" href="#">¡Calcula cuánto costará <br> su Universidad!</a>
+    </div>
+  </div> -->
+
+  <!--===============================================
+  Carrusel 1
+  =================================================-->
+  <div class="carruselTop">    
+    <div class="owl-carousel owl-theme carruselMexicana1">
+      <div class="item img1"></div>
+      <div class="item img2"></div>            
+      <div class="item img3"></div>
+      <div class="item img4"></div>
+      <div class="item img5"></div>
+    </div>
     <div class="btnCal">
       <a class="btnCalAnimate" href="#">¡Calcula cuánto costará <br> su Universidad!</a>
     </div>
@@ -309,7 +325,7 @@
   </div>
 
   <!--===============================================
-  Carrusel
+  Carrusel 2
   =================================================-->
   <div class="carrusel">
     <div class="titleCarrusel">¿Por qué es seguro invertir en Mexicana de Becas?</div>
