@@ -7,7 +7,7 @@
   }
 
   @include desktop {
-    width: 1050px;
+    width: 1400px;
   }
 
   .recursos__title {
@@ -23,7 +23,7 @@
 
   .recursos__items {
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: wrap;    
     @include tablet {
       display: grid;
       grid-template-columns: repeat(2, 1fr);
@@ -33,9 +33,9 @@
 
     @include desktop {
       display: grid;
-      grid-template-columns: repeat(3, 1fr);
+      grid-template-columns: repeat(4, 1fr);
       column-gap: 10px;
-      row-gap: 40px;
+      row-gap: 20px;
     }
 
     .recursos__item__cuadro {
@@ -43,13 +43,20 @@
       width: 300px;
       margin: auto;
       margin-bottom: 20px;
+
       @include tablet {
         margin-bottom: 0px;
       }
+
+      @include desktop{
+        width: 330px;
+      }
+
       img {
         margin: auto;
         display: block;
       }
+
       .item_cuadro_title {
         background: lighten($gray, 20%);
         font-weight: bold;
@@ -73,6 +80,9 @@
         font-weight: bold;
         font-family: $title;
         margin-bottom: 14px;
+        @include desktop{
+          width: 200px;
+        }
       }
       .recurso__title--orange {
         background: $orangeTwo;
@@ -82,6 +92,9 @@
       }
       .recurso__title--red {
         background: $red;
+      }
+      .recurso__title--green {
+        background: $greenLeer;
       }
     }
   }
