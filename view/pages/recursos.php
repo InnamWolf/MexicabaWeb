@@ -62,13 +62,13 @@
 
     </a>
 
-    <a class="recursos__item__cuadro shadow" href="videos">
+    <a class="recursos__item__cuadro shadow" href="revista">
 
       <div class="item_cuadro_title recurso__title--green">
         Revista Futuro MB
       </div>
 
-      <img src="view/src/img/recursos/videos.png" alt="videos">
+      <img class="logoRevista" src="view/src/img/recursos/revista.png" alt="revista">
 
       <p class='item__parrafos'>
         Consulta nuestra revista digital con artículos redactados por nuestros convenios y aliados sobre educación, finanzas y más.

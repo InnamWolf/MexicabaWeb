@@ -76,7 +76,8 @@
         $_GET["url"] == "soycliente" ||
         $_GET["url"] == "enviar" ||
         $_GET["url"] == "meInteresa" ||
-        $_GET["url"] == "aviso"
+        $_GET["url"] == "aviso" ||
+        $_GET["url"] == "revista" 
 
       ) {
 
