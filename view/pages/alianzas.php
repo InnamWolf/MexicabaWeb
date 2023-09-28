@@ -554,7 +554,7 @@
 
     <div class="informacion__item shadow">
 
-      <img class="informacion__imagen" src="view/src/img/alianzas/city.svg" alt="PlanPrepa" loading="lazy">
+      <img class="informacion__imagen" src="view/src/img/alianzas/canada.svg" alt="PlanPrepa" loading="lazy">
 
       <div class="informacion__txt" data-bs-toggle="modal" data-bs-target="#canada"><i class="fa-solid fa-arrow-right"></i> Más </div>
 
