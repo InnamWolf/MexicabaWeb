@@ -100,11 +100,8 @@
     //* FOOTER
     //* ===============================================    
     include_once 'view/components/footer.php';
-
-    //* ===============================================
-    //* cookies
-    //* ===============================================
     include_once 'view/components/cookies.php';
+
     ?>    
 
     
@@ -114,6 +111,7 @@
   <script src="view/src/js/typed.js"></script>
   <script src="view/src/js/typed_list.js"></script>
   <script src="view/src/js/main.js"></script>
+  <script src="view/src/js/cookies.js"></script>
 
 </body>
 

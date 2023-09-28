@@ -2,9 +2,13 @@
 Cookies 
 =================================================-->
 <section class="cookie" id="cookie">
-    <div class="ctext">Al hacer clic en “Aceptar todas las cookies”, usted acepta que las cookies se guarden en su dispositivo para mejorar la navegación del sitio, analizar el uso del mismo, y colaborar con nuestros estudios para marketing.</div>
-    <div class="cbtn">
-        <button class="boton" id="aceptar">Aceptar todas las cookies</button>
+    <div class="soloPC">
+        <div class="ctext">
+            Esta página puede utilizar cookies, y/u otras tecnologías para mejorar nuestros servicios y analizar los hábitos de navegación del usuario. Si continúa navegando, consideramos que acepta su uso. Para obtener más información consulte nuestro aviso de privacidad <a href="aviso" target="_blank">aquí</a>
+        </div>
+        <div class="cbtn">
+            <button class="boton" id="aceptar">Aceptar todas las cookies</button>
+        </div>
     </div>
 </section>
 

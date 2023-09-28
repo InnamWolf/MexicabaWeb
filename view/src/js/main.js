@@ -255,26 +255,3 @@ imgTops.style.setProperty('--animate-duration', '3s');
 const titleWhat = document.querySelector('.tituloQueEs');
 titleWhat.classList.add('animate__animated', 'animate__fadeInDown');
 titleWhat.style.setProperty('--animate-duration', '2s');
-
-//* ===============================================
-//* Aviso cookies
-//* ===============================================
-
-const btnAceptar = document.querySelector('#aceptar');
-const avisoCookies = document.querySelector('#cookie');
-const fondo = document.querySelector('#fondo-cookie');
-
-
-if(!localStorage.getItem('cookies-aceptadas')){
-  avisoCookies.classList.add('activo');
-  fondo.classList.add('activo');
-}
-
-btnAceptar.addEventListener('click',()=>{
-
-  avisoCookies.classList.remove('activo');
-  fondo.classList.remove('activo');
-
-  localStorage.setItem('cookies-aceptadas', true);
-
-});

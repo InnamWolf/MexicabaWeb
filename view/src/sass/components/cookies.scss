@@ -8,10 +8,15 @@
     z-index: 100;
     display:none;
     @include desktop{
-        width: 100%;
+      width: 100%;  
+      text-align: left;     
     }
     .ctext{
         margin-bottom: 20px;
+        @include desktop{
+          width: 700px;          
+      }
+
     }
     .boton{
         border: 0;
@@ -25,6 +30,17 @@
         &:hover{
             background: darken($blue,10%);
           }
+          
+    }
+
+    .soloPC{
+      @include desktop{
+        display: flex;
+        width: 1200px;
+        justify-content: center;        
+        margin: auto;
+        column-gap: 20px;
+      } 
     }
 
 }
