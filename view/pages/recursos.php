@@ -26,7 +26,7 @@
 
     </a>
 
-    <a class="recursos__item__cuadro shadow" href="#">
+    <a class="recursos__item__cuadro shadow" href="https://www.mb.com.mx/home/Calculadora-MB/">
 
       <div class="item_cuadro_title recurso__title--blue">
         Calculadora
