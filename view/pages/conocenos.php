@@ -20,7 +20,7 @@
       <div class="item img5"></div>
     </div>
     <div class="btnCal">
-      <a class="btnCalAnimate" href="#">¡Calcula cuánto costará <br> su Universidad!</a>
+      <a class="btnCalAnimate" href="https://www.mb.com.mx/home/Calculadora-MB/">¡Calcula cuánto costará <br> su Universidad!</a>
     </div>
   </div>
 
@@ -478,7 +478,7 @@
             <div class="row d-flex h-100 align-items-center justify-content-end">
                 <div class="col-md-5">
                     <h1 class="display-5 fw-bolder text-white">¿Cuánto costará su <span class="typed text-orange-title"></span></h1>
-                    <a class="btn btn-primary btn-lg" href="#paso1">¡Empezar!</a>
+                    <a class="btn btn-primary btn-lg" href="https://www.mb.com.mx/home/Calculadora-MB/">¡Empezar!</a>
                 </div>
             </div>
         </div>
@@ -495,7 +495,7 @@
                 </div>
                 <div class="col-md-4 align-self-center">
                     <h1 class="display-2 fw-bolder text-orange">¿Cuánto costará su <span class="text-blue typed2"></span></h1>
-                    <a class="btn btn-primary btn-lg" href="#paso1">¡Empezar!</a>
+                    <a class="btn btn-primary btn-lg" href="https://www.mb.com.mx/home/Calculadora-MB/">¡Empezar!</a>
                 </div>
             </div>
         </div>
